@@ -6,14 +6,13 @@ using InfiniteRuntimeTagViewer.Halo;
 using InfiniteRuntimeTagViewer.Halo.TagObjects;
 using InfiniteRuntimeTagViewer.Interface.Controls;
 using Microsoft.Win32;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Numerics;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -21,10 +20,10 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Navigation;
 using System.Windows.Threading;
-using Newtonsoft.Json;
-using TagBlock = InfiniteRuntimeTagViewer.Interface.Controls.TagBlock;
-using static ZTools.ZCommon;
 using ZTools;
+using static InfiniteRuntimeTagViewer.Halo.TagObjects.TagLayouts;
+using static ZTools.ZCommon;
+using TagBlock = InfiniteRuntimeTagViewer.Interface.Controls.TagBlock;
 
 namespace Halo_Infinite_Tag_Editor
 {
@@ -213,7 +212,7 @@ namespace Halo_Infinite_Tag_Editor
             }
         }
         #endregion
-        
+
         #region Window Controls
         // Anything that controls how the UI that doesn't fit in another group.
         private void CommandBinding_CanExecute(object sender, CanExecuteRoutedEventArgs e)
@@ -371,7 +370,7 @@ namespace Halo_Infinite_Tag_Editor
         {
             string searchTerm = SearchBox.Text;
             int foundCount = 0; // Total matches found
-            
+
             foreach (TagFolder folder in tagFolders.Values) // Iterate through folders
             {
                 TreeViewItem? tvFolder = folder.folder; // Set variable for the folder
@@ -439,7 +438,7 @@ namespace Halo_Infinite_Tag_Editor
                 tagFolders.Clear();
                 tagFolders = new SortedList<string, TagFolder>();
             }
-            
+
             GC.Collect();
         }
 
@@ -453,7 +452,7 @@ namespace Halo_Infinite_Tag_Editor
                 {
                     moduleStream = new FileStream(path, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite);
                     module = ModuleEditor.ReadModule(moduleStream);
-                    
+
                     fileStreamOpen = true;
                     modulePath = path;
 
@@ -538,6 +537,7 @@ namespace Halo_Infinite_Tag_Editor
 
         #region Tag Viewer Events
         private bool tagOpen = false;
+        private string TagGroup = "";
         private bool fileStreamOpen = false;
         private bool tagOpenedFromModule = false;
         private string tagFileName = "";
@@ -569,7 +569,7 @@ namespace Halo_Infinite_Tag_Editor
                 tagOpen = true;
                 tagOpenedFromModule = true;
 
-                BuildTagViewer();
+                BuildTagViewer(tagData);
 
                 ReadScript(tagStream.ToArray());
 
@@ -607,7 +607,7 @@ namespace Halo_Infinite_Tag_Editor
                     luaView.Text = disassembler.Disassemble();
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 StatusOut("Error reading lua script: " + ex.Message);
             }
@@ -643,7 +643,7 @@ namespace Halo_Infinite_Tag_Editor
                     else
                         control.Value.Visibility = Visibility.Collapsed;
                 }
-                
+
             }
             StatusOut("Found " + foundCount + " matches for: \"" + SearchBox.Text + "\"");
         }
@@ -672,16 +672,23 @@ namespace Halo_Infinite_Tag_Editor
                 moduleFile.Tag.Name = ofd.FileName;
                 tagFileName = ofd.FileName;
                 moduleFile.Tag.ShortName = tagFileName.Split("\\").Last();
-                
+
                 tagOpen = true;
                 tagOpenedFromModule = false;
                 curTagID = Convert.ToHexString(GetDataFromByteArray(4, 8, moduleFile.Tag.TagData));
                 ModuleBlock.Text = modulePath.Split("\\").Last();
                 TagNameBlock.Text = tagFileName.Split("\\").Last();
+                TagGroup = tagFileName.Split(".").Last();
                 TagIDBlock.Text = curTagID;
                 DataOffsetBlock.Text = moduleFile.Tag.Header.HeaderSize.ToString();
+                TagData newTag = new()
+                {
+                    Header = ofd.FileName,
+                    Tag = ofd.FileName,
+                    Group = TagGroup
+                };
 
-                BuildTagViewer();
+                BuildTagViewer(newTag);
 
                 StatusOut("Tag opened from file: " + ofd.FileName);
             }
@@ -729,7 +736,7 @@ namespace Halo_Infinite_Tag_Editor
             {
                 StatusOut("A tag needs to be open to overwrite...");
             }
-            
+
         }
 
         private void ExportTagClick(object sender, RoutedEventArgs e)
@@ -779,7 +786,7 @@ namespace Halo_Infinite_Tag_Editor
                 {
                     tagFileStream.Close();
                 }
-                
+
                 tagOpen = false;
                 tagOpenedFromModule = false;
                 ModuleBlock.Text = "";
@@ -798,8 +805,8 @@ namespace Halo_Infinite_Tag_Editor
                 luaView.Clear();
             }
         }
-        
-        
+
+
         #endregion
 
         #region Tag Viewer Controls
@@ -820,7 +827,7 @@ namespace Halo_Infinite_Tag_Editor
         private Dictionary<string, Control> tagViewerControls = new();
         private int curDataBlockInd = 1;
 
-        private async void BuildTagViewer()
+        private async void BuildTagViewer(TagData tagData)
         {
             try
             {
@@ -832,10 +839,10 @@ namespace Halo_Infinite_Tag_Editor
                 {
                     Datnum = "",
                     ObjectId = curTagID,
-                    TagGroup = inhaledTags[curTagID].TagGroup,
+                    TagGroup = tagData.Group,
                     TagData = 0,
                     TagTypeDesc = "",
-                    TagFullName = inhaledTags[curTagID].TagPath,
+                    TagFullName = curTagID,
                     TagFile = moduleFile.Tag.ShortName,
                     unloaded = false
                 };
@@ -849,7 +856,7 @@ namespace Halo_Infinite_Tag_Editor
                 loadTag.Start();
                 await loadTag;
                 loadTag.Dispose();
-                    
+
                 StatusOut("Building tag viewer...");
                 CreateTagControls(tagStruct, 0, tagDefinitions, tagStruct.TagData, TagViewer, curTagID + ":", null, false);
                 StatusOut("Opened tag from module: " + tagFileName.Split("\\").Last());
@@ -860,7 +867,7 @@ namespace Halo_Infinite_Tag_Editor
             {
                 StatusOut("Error loading tag: " + ex.Message);
             }
-            
+
         }
 
         private void GetTagValueData(Dictionary<long, TagLayouts.C> tagDefinitions, long address, long startingTagOffset, string offsetChain)
@@ -904,7 +911,7 @@ namespace Halo_Infinite_Tag_Editor
                                 for (int i = 0; i < childCount; i++)
                                 {
                                     long newAddress = (long)moduleFile.Tag.DataBlockArray[curTagData.DataBlockIndex].Offset - (long)moduleFile.Tag.DataBlockArray[0].Offset + (entry.Value.S * i);
-                                    GetTagValueData(entry.Value.B, newAddress , newAddress + entry.Value.S * i, curTagData.OffsetChain);
+                                    GetTagValueData(entry.Value.B, newAddress, newAddress + entry.Value.S * i, curTagData.OffsetChain);
                                 }
                             }
                         }
@@ -920,7 +927,7 @@ namespace Halo_Infinite_Tag_Editor
                                 curTagData.ChildCount = childCount;
                                 curTagData.DataBlockIndex = blockIndex;
                             }
-                            
+
                         }
                     }
 
@@ -975,7 +982,7 @@ namespace Halo_Infinite_Tag_Editor
                                             parentpanel.Children.Add(vb0);
                                             tagViewerControls.Add(entry.Value.AbsoluteTagOffset, vb0);
                                         }
-                                            
+
                                     }
                                     else
                                     {
@@ -1116,7 +1123,7 @@ namespace Halo_Infinite_Tag_Editor
                                     }
                                 }
                                 eb.value_name.Text = fg3.N;
-                                
+
                                 parentpanel.Children.Add(eb);
                                 tagViewerControls.Add(entry.Value.AbsoluteTagOffset, eb);
                             }
@@ -1529,7 +1536,7 @@ namespace Halo_Infinite_Tag_Editor
                 result.TagID = tagID;
                 result.AssetID = "Unknown";
                 result.TagPath = "Unknown";
-            }    
+            }
 
             return result;
         }
@@ -1587,7 +1594,7 @@ namespace Halo_Infinite_Tag_Editor
                     value = Encoding.ASCII.GetBytes(tb.Text);
                     tvd.Value = value;
                 }
-                
+
                 if (value.Length > 0)
                 {
                     if (tagStream != null)
@@ -1668,11 +1675,11 @@ namespace Halo_Infinite_Tag_Editor
                     value[3] = data[3];
                 }
             }
-                
+
 
             long totalOffset = Convert.ToInt64(tvd.Offset) + moduleFile.Tag.Header.HeaderSize;
             tvd.Value = value;
-            
+
             if (tagStream != null)
             {
                 tagStream.Position = totalOffset;
@@ -1890,7 +1897,7 @@ namespace Halo_Infinite_Tag_Editor
                     StatusOut("Error retrieving forge data!");
                 }
             }
-            
+
             if (DumpTypeCB.SelectedIndex == 4)
             {
                 StatusOut("Attempting to export hashes...");

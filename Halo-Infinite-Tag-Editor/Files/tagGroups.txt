@@ -253,3 +253,15 @@ sasp : sprintdefinitiontag
 sagh : grapplehookdefinitiontag
 saev : evadedefinitiontag
 mead : meleeadditionaldamage
+rucs : runtimecoatingstyles
+rucy : runtimecoatingstyle
+jssc : json_script
+rebi : rebinding_globals
+shrs : shader_root_signature
+vart : vector_art
+cmsw : coating_swatch
+cogl : coating_globals
+fcdl : forge_characters
+fdwp : forge_dimensional_widgets
+jssc : json_script
+slst : SilentSubtitleInstance
