@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -122,6 +122,10 @@
 				<_36 v="grenade tokens" />
 				<_14 v="SCALE max grenade tokens" />
 				<_14 v="MIN max grenade tokens" />
+				<_14 v="SCALE min grenade tokens" />
+				<_14 v="MIN min grenade tokens" />
+				<_14 v="SCALE grenade token threshold" />
+				<_14 v="MIN grenade token threshold" />
 				<_14 v="SCALE grenade token cooldown" />
 				<_14 v="MIN grenade token cooldown" />
 				<_36 v="effectiveness tokens" />

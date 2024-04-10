@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -11,7 +11,7 @@
 	</_38>
 	<_2 v="Name" />
 	<_40 v="Actor List">
-		<_38 v="">
+		<_38 v="AnyTag">
 			<_7 v="vtable space" />
 			<_38 v="internal struct">
 				<_6 v="global tag ID" />
@@ -31,7 +31,7 @@
 		<_41 v="Vehicle Configuration" />
 		<_40 v="Passenger List">
 			<_38 v="ActorCellEntryTag">
-				<_38 v="">
+				<_38 v="AnyTag">
 					<_7 v="vtable space" />
 					<_38 v="internal struct">
 						<_6 v="global tag ID" />
@@ -69,7 +69,7 @@
 	<_40 v="Squad Intensity List">
 		<_2 v="Name" />
 		<_40 v="Actor List">
-			<_38 v="">
+			<_38 v="AnyTag">
 				<_7 v="vtable space" />
 				<_38 v="internal struct">
 					<_6 v="global tag ID" />
@@ -89,7 +89,7 @@
 			<_41 v="Vehicle Configuration" />
 			<_40 v="Passenger List">
 				<_38 v="ActorCellEntryTag">
-					<_38 v="">
+					<_38 v="AnyTag">
 						<_7 v="vtable space" />
 						<_38 v="internal struct">
 							<_6 v="global tag ID" />

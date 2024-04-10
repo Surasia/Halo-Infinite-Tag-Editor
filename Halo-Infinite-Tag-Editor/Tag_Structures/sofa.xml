@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -137,6 +137,7 @@
 		<Flag v="always show ally nav point shield and health" />
 		<Flag v="not allowed to use dynamic input assignment" />
 		<Flag v="delete on reaching zero uses" />
+		<Flag v="delete on owner death" />
 	</_F>
 	<_3C v="attachment priority" />
 	<_34 v="generated_pad3276" length="2" />

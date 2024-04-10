@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -22,6 +22,10 @@
 			<Flag v="SpartanPlatform5" />
 			<Flag v="SpartanPlatform6" />
 			<Flag v="SpartanPlatform7" />
+			<Flag v="SpartanPlatform8" />
+			<Flag v="SpartanPlatform9" />
+			<Flag v="SpartanPlatform10" />
+			<Flag v="SpartanPlatform11" />
 			<Flag v="SpartanPlatformsCount" />
 			<Flag v="VehiclePlatform" />
 		</_B>

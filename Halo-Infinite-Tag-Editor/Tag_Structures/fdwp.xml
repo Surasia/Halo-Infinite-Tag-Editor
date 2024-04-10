@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<_38 v="AnyTag">
+		<_7 v="vtable space" />
+		<_38 v="internal struct">
+			<_6 v="global tag ID" />
+			<_34 v="local tag handle" length="4" />
+			<_3B v="" />
+		</_38>
+		<_3B v="" />
+	</_38>
+	<_37 v="$$$ Translation $$$" />
+	<_14 v="Translation Widget Box Size" />
+	<_14 v="Translation Widget Stem Size" />
+	<_14 v="Translation Widget Stem Length" />
+	<_14 v="Translation Widget Arrow Size" />
+	<_14 v="Translation Widget Active Axis Width Scale Factor" />
+	<_14 v="Translation Widget Inactive Axis Width Scale Factor" />
+	<_14 v="Translation Widget Axis Mouse Selection Tolerance Factor" />
+	<_14 v="Translation Widget Selection Box Size" />
+	<_14 v="Translation Widget 2-Axis Selection Ratio" />
+	<_14 v="Translation Widget Selection Arm Factor" />
+	<_37 v="" />
+	<_37 v="$$$ Rotation $$$" />
+	<_14 v="Rotation Widget Radius" />
+	<_14 v="Rotation Widget Handle Width" />
+	<_14 v="Rotation Widget Active Axis Width Scale Factor" />
+	<_14 v="Rotation Widget Inactive Axis Width Scale Factor" />
+	<_14 v="Rotation Widget Axis Mouse Selection Tolerance Factor" />
+	<_14 v="Mouse Rotation Multiplier" />
+	<_37 v="" />
+	<_37 v="$$$ Scale $$$" />
+	<_14 v="Scale Widget Middle Box Size" />
+	<_14 v="Scale Widget Stem Size" />
+	<_14 v="Scale Widget Stem Length" />
+	<_14 v="Scale Widget Box Size" />
+	<_14 v="Scale Widget Active Axis Width Scale Factor" />
+	<_14 v="Scale Widget Inactive Axis Width Scale Factor" />
+	<_14 v="Scale Widget Axis Mouse Selection Tolerance Factor" />
+	<_14 v="Scale Widget 2-Axis Selection Ratio" />
+	<_14 v="Scale Widget Selection Arm Factor" />
+	<_37 v="" />
+	<_34 v="generated_pad570f" length="4" />
+	<_3B v="" />
+</root>

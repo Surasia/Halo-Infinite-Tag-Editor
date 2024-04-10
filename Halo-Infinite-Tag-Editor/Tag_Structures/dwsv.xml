@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -76,8 +76,6 @@
 		<Flag v="Override Master Scalar Near Distance" />
 		<Flag v="Override Master Scalar Far" />
 		<Flag v="Override Master Scalar Far Distance" />
-		<Flag v="Override Probe Region Fade Max Angle" />
-		<Flag v="Override Probe Region Fade Min Angle" />
 	</_D>
 	<_F v="Dynamic Probe Flags">
 		<Flag v="Override Probe Scalar" />
@@ -90,7 +88,6 @@
 	<_F v="Dynamic Cubemap Transition Flags">
 		<Flag v="Override Cubemap Transition Far" />
 		<Flag v="Override Cubemap Transition Near" />
-		<Flag v="Override Cubemap Max Count" />
 	</_F>
 	<_34 v="generated_pad627f" length="1" />
 	<_E v="Global Cubemap Flags">
@@ -131,6 +128,7 @@
 		<Flag v="Override Screen Space Reflections" />
 		<Flag v="Override Camera Lens Dirt" />
 		<Flag v="Override Contact Shadows" />
+		<Flag v="Override Contact Shadows Local Lights" />
 		<Flag v="Override Chromatic Aberration" />
 	</_E>
 	<_34 v="generated_padfbe9" length="2" />
@@ -196,8 +194,6 @@
 	</_E>
 	<_F v="SSAO Flags">
 		<Flag v="Override Flags" />
-		<Flag v="Override Enable Flags" />
-		<Flag v="Override Hemi Rejection Falloff" />
 		<Flag v="Override GTAO Intensity" />
 		<Flag v="Override Sun AO" />
 		<Flag v="Override Spot Light AO" />
@@ -287,8 +283,6 @@
 		<Flag v="Override Volumetric Fog Fade" />
 		<Flag v="OverrideVolumetricFogPerformance" />
 		<Flag v="Override Fog Light" />
-		<Flag v="Override Patchy Fog Non-Blending Parameters" />
-		<Flag v="Override Patchy Fog Per-Cluster Parameters" />
 		<Flag v="Override Crepuscular Ray" />
 	</_E>
 	<_D v="Atmospheric Scattering Fog Flags">
@@ -388,26 +382,6 @@
 		<Flag v="Override Distance Falloff Steepness" />
 		<Flag v="Override Nearby Cutoff Percentage" />
 	</_E>
-	<_E v="Volume Texture Fog Globals Flags">
-		<Flag v="Override Fog Bitmap" />
-		<Flag v="Override Texture Repeat Rate" />
-		<Flag v="Override Distance Between Sheets" />
-		<Flag v="Override Depth Fade Factor" />
-		<Flag v="Override Transparent Sort Distance" />
-		<Flag v="Override Transparent Sort Layer" />
-		<Flag v="Override Flags" />
-		<Flag v="Override Wind Strength Across Distance" />
-	</_E>
-	<_E v="Volume Texture Fog Flags">
-		<Flag v="Override Flags" />
-		<Flag v="Override Sheet Density" />
-		<Flag v="Override Color Tint" />
-		<Flag v="Override Color Tint Inner" />
-		<Flag v="Override Intensity" />
-		<Flag v="Override Full Intensity Height" />
-		<Flag v="Override Half Intensity Height" />
-		<Flag v="Override Reference Plane Height" />
-	</_E>
 	<_E v="Crepuscular Ray Flags">
 		<Flag v="Override Flags" />
 		<Flag v="Override Pitch Angle" />
@@ -433,57 +407,45 @@
 		<Flag v="Override Coverage Scale" />
 		<Flag v="Override Coverage Offset" />
 		<Flag v="Override Coverage Scroll Speed" />
-		<Flag v="Override Coverage Strength" />
-		<Flag v="Override Horizon Distance" />
-		<Flag v="Override Atmosphere Start Height" />
-		<Flag v="Override Atmosphere End Height" />
-		<Flag v="Override LOD Distance" />
 		<Flag v="Override Global Wind Interpolation" />
 		<Flag v="Override Wind Direction" />
-		<Flag v="Override HighF Noise Animation Speed" />
-		<Flag v="Override LowF Noise Animation Speed" />
-		<Flag v="Override Raymarch Step Scale" />
-		<Flag v="Override Depth Threshold" />
-		<Flag v="Override Max Depth" />
-		<Flag v="Override Min Distance Horizon Clouds" />
-		<Flag v="Override Min Distance Horizon Fade Start" />
-		<Flag v="Override Max Distance Center Fade Start" />
-		<Flag v="Override Max Distance Center Fade End" />
-		<Flag v="Override Center Fade Position" />
 		<Flag v="Override Cloud Shape Settings" />
 		<Flag v="Override Cloud Lighting Settings" />
 		<Flag v="Override Cloud Shadow Settings" />
-		<Flag v="Override Clouds V2 Settings" />
 	</_D>
 	<_E v="Cloud Shape Flags">
-		<Flag v="Override Low Frequency Noise Scale" />
-		<Flag v="Override Low Frequency Noise Strength" />
-		<Flag v="Override Low Frequency Noise Axis Scale" />
-		<Flag v="Override High Frequency Noise Scale" />
-		<Flag v="Override High Frequency Noise Strength" />
 		<Flag v="Override Curl Noise Scale" />
 		<Flag v="Override Curl Noise Strength" />
-		<Flag v="Override Bottom Erosion Strength" />
-		<Flag v="Override Top Erosion Strength" />
-		<Flag v="Override Top Offset" />
+		<Flag v="Override Volume Start" />
+		<Flag v="Override Volume Height" />
+		<Flag v="Override Base Noise Scale" />
+		<Flag v="Override Detail Noise Scale" />
+		<Flag v="Override Detail Strength" />
+		<Flag v="Override Coverage Strength" />
+		<Flag v="Override Coverage Threshold" />
+		<Flag v="Override Lod Dist Scale" />
 	</_E>
-	<_E v="Cloud Lighting Flags">
-		<Flag v="Override Beer Strength" />
-		<Flag v="Override Powder Strength" />
-		<Flag v="Override Cornette Shanks Strength" />
-		<Flag v="Override Cornette Shanks Spread" />
-		<Flag v="Override Bottom Light" />
-		<Flag v="Override Clouds Fog Scale" />
-		<Flag v="Override Clouds Fog Intensity" />
-		<Flag v="Override Clouds Mie Intensity" />
-		<Flag v="Override Sunlight Intensity" />
+	<_34 v="generated_pad7b72" length="2" />
+	<_D v="Cloud Lighting Flags">
 		<Flag v="Override Sunlight Color Tint" />
-		<Flag v="Override Skylight Intensity" />
-		<Flag v="Override Skylight Color Tint" />
-		<Flag v="Override Skylight Top Intensity" />
-		<Flag v="Override Skylight Top Color Tint" />
-		<Flag v="Override Global Alpha" />
-	</_E>
+		<Flag v="Override Density Scale" />
+		<Flag v="Override Scattering Factor" />
+		<Flag v="Override Extinction Factor" />
+		<Flag v="Override Phase Constant" />
+		<Flag v="Override Powder Strength" />
+		<Flag v="Override Direct Sun Intensity" />
+		<Flag v="Override Direct Sun Intensity Phase 0" />
+		<Flag v="Override Ambient Intensity Sky" />
+		<Flag v="Override Ambient Color Sky" />
+		<Flag v="Override Ambient Intensity Ground" />
+		<Flag v="Override Ambient Color Ground" />
+		<Flag v="Override Ray March Step Size" />
+		<Flag v="Override Sun March Dist Scale" />
+		<Flag v="Override Horizon Fade Start" />
+		<Flag v="Override Dither Amount" />
+		<Flag v="Override Atmospheric Scattering Intensity Start" />
+		<Flag v="Override Atmospheric Scattering Intensity End" />
+	</_D>
 	<_E v="Cloud Shadows Flags">
 		<Flag v="Override Minimum Strength" />
 		<Flag v="Override Gradient" />
@@ -494,36 +456,7 @@
 		<Flag v="Override Panning Clouds Shadows Scalar" />
 		<Flag v="Override Panning Clouds Shadows Tilt" />
 	</_E>
-	<_34 v="generated_pad7b72" length="2" />
-	<_D v="Cloud V2 Flags">
-		<Flag v="Override Density Scale" />
-		<Flag v="Override Scattering Factor" />
-		<Flag v="Override Extinction Factor" />
-		<Flag v="Override Phase Constant" />
-		<Flag v="Override Powder Strength" />
-		<Flag v="Override Direct Sun Intensity" />
-		<Flag v="Override Ambient Intensity Sun Angle" />
-		<Flag v="Override Ambient Intensity Sky" />
-		<Flag v="Override Ambient Color Sky" />
-		<Flag v="Override Ambient Intensity Ground" />
-		<Flag v="Override Ambient Color Ground" />
-		<Flag v="Override Ray March Step Scale" />
-		<Flag v="Override Max Step Count" />
-		<Flag v="Override Sun March Dist Scale" />
-		<Flag v="Override Sun Marching Steps" />
-		<Flag v="Override Horizon Fade Start" />
-		<Flag v="Override Fog Intensity" />
-		<Flag v="Override Dither Amount" />
-		<Flag v="Override Volume Start" />
-		<Flag v="Override Volume Height" />
-		<Flag v="Override Base Noise Scale" />
-		<Flag v="Override Base Noise Dilation" />
-		<Flag v="Override Detail Noise Scale" />
-		<Flag v="Override Detail Strength" />
-		<Flag v="Override Coverage Strength" />
-		<Flag v="Override Curl Noise Scale" />
-		<Flag v="Override Curl Noise Strength" />
-	</_D>
+	<_34 v="generated_padc827" length="2" />
 	<_D v="CVW Light Controls Flags">
 		<Flag v="Enable light controls" />
 		<Flag v="Enable CVW For First Person Objects" />
@@ -564,6 +497,5 @@
 	<_D v="Spec Control Node Flags">
 		<Flag v="Override Input" />
 	</_D>
-	<_34 v="generated_padc827" length="4" />
 	<_3B v="" />
 </root>

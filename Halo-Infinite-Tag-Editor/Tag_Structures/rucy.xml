@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -33,10 +33,35 @@
 			<_14 v="scratchRoughnessOffset" />
 			<_37 v="" />
 			<_37 v="Emissive Overrides" />
+			<_A v="Use Emissive?">
+				<Flag v="disabled" />
+				<Flag v="enabled" />
+			</_A>
+			<_34 v="generated_pad34c4" length="3" />
 			<_14 v="emissiveIntensity" />
 			<_14 v="emissiveAmount" />
 			<_37 v="" />
-			<_37 v="Blends" />
+			<_37 v="Advanced" />
+			<_A v="Use Alpha?">
+				<Flag v="disabled" />
+				<Flag v="enabled" />
+			</_A>
+			<_34 v="generated_pad8179" length="1" />
+			<_B v="Use Subsurface Scattering?">
+				<Flag v="Do Not Use Subsurface" />
+				<Flag v="Use Subsurface" />
+				<Flag v="Use Subsurface (gummy)" />
+				<Flag v="Use Subsurface (alien skin)" />
+				<Flag v="Use Subsurface (brute skin)" />
+				<Flag v="Use Subsurface (human skin post)" />
+				<Flag v="Use Subsurface (human skin pre)" />
+				<Flag v="Use Subsurface (inquisitor skin)" />
+				<Flag v="Use Subsurface (marble)" />
+				<Flag v="Use Subsurface (plastic)" />
+				<Flag v="Use Subsurface (preintegrated)" />
+				<Flag v="Use Subsurface (snow)" />
+				<Flag v="Use Subsurface (flood)" />
+			</_B>
 			<_A v="Hero Reveal">
 				<Flag v="disabled" />
 				<Flag v="enabled" />
@@ -54,7 +79,7 @@
 				<Flag v="enabled" />
 			</_A>
 			<_37 v="" />
-			<_34 v="generated_pad34c4" length="4" />
+			<_34 v="generated_padce2e" length="4" />
 			<_3B v="" />
 		</_38>
 		<_38 v="heroDamageSwatch">
@@ -80,10 +105,35 @@
 			<_14 v="scratchRoughnessOffset" />
 			<_37 v="" />
 			<_37 v="Emissive Overrides" />
+			<_A v="Use Emissive?">
+				<Flag v="disabled" />
+				<Flag v="enabled" />
+			</_A>
+			<_34 v="generated_pad34c4" length="3" />
 			<_14 v="emissiveIntensity" />
 			<_14 v="emissiveAmount" />
 			<_37 v="" />
-			<_37 v="Blends" />
+			<_37 v="Advanced" />
+			<_A v="Use Alpha?">
+				<Flag v="disabled" />
+				<Flag v="enabled" />
+			</_A>
+			<_34 v="generated_pad8179" length="1" />
+			<_B v="Use Subsurface Scattering?">
+				<Flag v="Do Not Use Subsurface" />
+				<Flag v="Use Subsurface" />
+				<Flag v="Use Subsurface (gummy)" />
+				<Flag v="Use Subsurface (alien skin)" />
+				<Flag v="Use Subsurface (brute skin)" />
+				<Flag v="Use Subsurface (human skin post)" />
+				<Flag v="Use Subsurface (human skin pre)" />
+				<Flag v="Use Subsurface (inquisitor skin)" />
+				<Flag v="Use Subsurface (marble)" />
+				<Flag v="Use Subsurface (plastic)" />
+				<Flag v="Use Subsurface (preintegrated)" />
+				<Flag v="Use Subsurface (snow)" />
+				<Flag v="Use Subsurface (flood)" />
+			</_B>
 			<_A v="Hero Reveal">
 				<Flag v="disabled" />
 				<Flag v="enabled" />
@@ -101,7 +151,7 @@
 				<Flag v="enabled" />
 			</_A>
 			<_37 v="" />
-			<_34 v="generated_pad34c4" length="4" />
+			<_34 v="generated_padce2e" length="4" />
 			<_3B v="" />
 		</_38>
 		<_38 v="globalEmissiveSwatch">
@@ -127,10 +177,35 @@
 			<_14 v="scratchRoughnessOffset" />
 			<_37 v="" />
 			<_37 v="Emissive Overrides" />
+			<_A v="Use Emissive?">
+				<Flag v="disabled" />
+				<Flag v="enabled" />
+			</_A>
+			<_34 v="generated_pad34c4" length="3" />
 			<_14 v="emissiveIntensity" />
 			<_14 v="emissiveAmount" />
 			<_37 v="" />
-			<_37 v="Blends" />
+			<_37 v="Advanced" />
+			<_A v="Use Alpha?">
+				<Flag v="disabled" />
+				<Flag v="enabled" />
+			</_A>
+			<_34 v="generated_pad8179" length="1" />
+			<_B v="Use Subsurface Scattering?">
+				<Flag v="Do Not Use Subsurface" />
+				<Flag v="Use Subsurface" />
+				<Flag v="Use Subsurface (gummy)" />
+				<Flag v="Use Subsurface (alien skin)" />
+				<Flag v="Use Subsurface (brute skin)" />
+				<Flag v="Use Subsurface (human skin post)" />
+				<Flag v="Use Subsurface (human skin pre)" />
+				<Flag v="Use Subsurface (inquisitor skin)" />
+				<Flag v="Use Subsurface (marble)" />
+				<Flag v="Use Subsurface (plastic)" />
+				<Flag v="Use Subsurface (preintegrated)" />
+				<Flag v="Use Subsurface (snow)" />
+				<Flag v="Use Subsurface (flood)" />
+			</_B>
 			<_A v="Hero Reveal">
 				<Flag v="disabled" />
 				<Flag v="enabled" />
@@ -148,7 +223,7 @@
 				<Flag v="enabled" />
 			</_A>
 			<_37 v="" />
-			<_34 v="generated_pad34c4" length="4" />
+			<_34 v="generated_padce2e" length="4" />
 			<_3B v="" />
 		</_38>
 		<_14 v="emissiveAmount" />
@@ -178,10 +253,35 @@
 			<_14 v="scratchRoughnessOffset" />
 			<_37 v="" />
 			<_37 v="Emissive Overrides" />
+			<_A v="Use Emissive?">
+				<Flag v="disabled" />
+				<Flag v="enabled" />
+			</_A>
+			<_34 v="generated_pad34c4" length="3" />
 			<_14 v="emissiveIntensity" />
 			<_14 v="emissiveAmount" />
 			<_37 v="" />
-			<_37 v="Blends" />
+			<_37 v="Advanced" />
+			<_A v="Use Alpha?">
+				<Flag v="disabled" />
+				<Flag v="enabled" />
+			</_A>
+			<_34 v="generated_pad8179" length="1" />
+			<_B v="Use Subsurface Scattering?">
+				<Flag v="Do Not Use Subsurface" />
+				<Flag v="Use Subsurface" />
+				<Flag v="Use Subsurface (gummy)" />
+				<Flag v="Use Subsurface (alien skin)" />
+				<Flag v="Use Subsurface (brute skin)" />
+				<Flag v="Use Subsurface (human skin post)" />
+				<Flag v="Use Subsurface (human skin pre)" />
+				<Flag v="Use Subsurface (inquisitor skin)" />
+				<Flag v="Use Subsurface (marble)" />
+				<Flag v="Use Subsurface (plastic)" />
+				<Flag v="Use Subsurface (preintegrated)" />
+				<Flag v="Use Subsurface (snow)" />
+				<Flag v="Use Subsurface (flood)" />
+			</_B>
 			<_A v="Hero Reveal">
 				<Flag v="disabled" />
 				<Flag v="enabled" />
@@ -199,7 +299,7 @@
 				<Flag v="enabled" />
 			</_A>
 			<_37 v="" />
-			<_34 v="generated_pad34c4" length="4" />
+			<_34 v="generated_padce2e" length="4" />
 			<_3B v="" />
 		</_38>
 		<_14 v="grimeAmount" />
@@ -235,10 +335,35 @@
 				<_14 v="scratchRoughnessOffset" />
 				<_37 v="" />
 				<_37 v="Emissive Overrides" />
+				<_A v="Use Emissive?">
+					<Flag v="disabled" />
+					<Flag v="enabled" />
+				</_A>
+				<_34 v="generated_pad34c4" length="3" />
 				<_14 v="emissiveIntensity" />
 				<_14 v="emissiveAmount" />
 				<_37 v="" />
-				<_37 v="Blends" />
+				<_37 v="Advanced" />
+				<_A v="Use Alpha?">
+					<Flag v="disabled" />
+					<Flag v="enabled" />
+				</_A>
+				<_34 v="generated_pad8179" length="1" />
+				<_B v="Use Subsurface Scattering?">
+					<Flag v="Do Not Use Subsurface" />
+					<Flag v="Use Subsurface" />
+					<Flag v="Use Subsurface (gummy)" />
+					<Flag v="Use Subsurface (alien skin)" />
+					<Flag v="Use Subsurface (brute skin)" />
+					<Flag v="Use Subsurface (human skin post)" />
+					<Flag v="Use Subsurface (human skin pre)" />
+					<Flag v="Use Subsurface (inquisitor skin)" />
+					<Flag v="Use Subsurface (marble)" />
+					<Flag v="Use Subsurface (plastic)" />
+					<Flag v="Use Subsurface (preintegrated)" />
+					<Flag v="Use Subsurface (snow)" />
+					<Flag v="Use Subsurface (flood)" />
+				</_B>
 				<_A v="Hero Reveal">
 					<Flag v="disabled" />
 					<Flag v="enabled" />
@@ -256,7 +381,7 @@
 					<Flag v="enabled" />
 				</_A>
 				<_37 v="" />
-				<_34 v="generated_pad34c4" length="4" />
+				<_34 v="generated_padce2e" length="4" />
 				<_3B v="" />
 			</_38>
 			<_3B v="" />

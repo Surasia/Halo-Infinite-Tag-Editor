@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -16,5 +16,7 @@
 		<_3B v="" />
 	</_40>
 	<_41 v="visorSwatch" />
+	<_6 v="defaultStyleIndex" />
+	<_34 v="generated_pad23c7" length="4" />
 	<_3B v="" />
 </root>

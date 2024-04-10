@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -384,13 +384,17 @@
 		<_2 v="mask 1 red channel intention" />
 		<_2 v="mask 1 green channel intention" />
 		<_2 v="mask 1 blue channel intention" />
-		<_A v="Number of Supported Layers For Material Shader">
-			<Flag v="Supports1Layer" />
-			<Flag v="Supports4Layers" />
-			<Flag v="Supports7Layers" />
-			<Flag v="Supports0Layers" />
+		<_A v="Number of Supported Layers For Material Shader Based On Mask Textures">
+			<Flag v="Supports 1 Layer" />
+			<Flag v="Supports 4 Layers" />
+			<Flag v="Supports 7 Layers" />
+			<Flag v="Layered Shader Disabled" />
 		</_A>
-		<_34 v="generated_pada41a" length="3" />
+		<_A v="Material Shader Requires Damage?">
+			<Flag v="No" />
+			<Flag v="Yes" />
+		</_A>
+		<_34 v="generated_pada41a" length="2" />
 		<_3B v="" />
 	</_40>
 	<_3B v="" />

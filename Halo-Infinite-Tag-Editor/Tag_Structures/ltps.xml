@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -144,6 +144,7 @@
 			<Flag v="Inspect" />
 			<Flag v="InspectPlayer" />
 			<Flag v="PGCR" />
+			<Flag v="MainMenu" />
 		</_B>
 		<_34 v="generated_padf35d" length="2" />
 		<_40 v="Light Presets Settings">

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -66,6 +66,7 @@
 					<Flag v="particle simulation b" />
 					<Flag v="particle velocity" />
 					<Flag v="invalid state --- please set again" />
+					<Flag v="active camo (0 = on, 1 = off)" />
 				</_A>
 				<_A v="Range Variable">
 					<Flag v="particle age" />
@@ -88,6 +89,7 @@
 					<Flag v="particle simulation b" />
 					<Flag v="particle velocity" />
 					<Flag v="invalid state --- please set again" />
+					<Flag v="active camo (0 = on, 1 = off)" />
 				</_A>
 				<_A v="Output Modifier">
 					<Flag v=" " />
@@ -115,6 +117,7 @@
 					<Flag v="particle simulation b" />
 					<Flag v="particle velocity" />
 					<Flag v="invalid state --- please set again" />
+					<Flag v="active camo (0 = on, 1 = off)" />
 				</_A>
 				<_37 v="Mapping" />
 				<_38 v="Mapping">

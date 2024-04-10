@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -128,6 +128,8 @@
 				<Flag v="frame_attachment_switch_to_secondary_parent_marker" />
 				<Flag v="frame_attachment_switch_to_default_parent_marker" />
 				<Flag v="allow_sprint_interrupt" />
+				<Flag v="hide_3p_primary_weapon" />
+				<Flag v="show_3p_primary_weapon" />
 			</_B>
 			<_34 v="generated_pade518" length="2" />
 			<_6 v="unique ID" />

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<_38 v="AnyTag">
+		<_7 v="vtable space" />
+		<_38 v="internal struct">
+			<_6 v="global tag ID" />
+			<_34 v="local tag handle" length="4" />
+			<_3B v="" />
+		</_38>
+		<_3B v="" />
+	</_38>
+	<_40 v="Character definitions">
+		<_2 v="Name" />
+		<_41 v="Spawned Character" />
+		<_F v="Attributes">
+			<Flag v="Is HVT" />
+			<Flag v="Can be spawned with drop pods" />
+			<Flag v="Can be spawned with phantoms" />
+		</_F>
+		<_34 v="generated_padb4fd" length="3" />
+		<_40 v="Available weapons">
+			<_2 v="Name" />
+			<_41 v="Weapon" />
+			<_3B v="" />
+		</_40>
+		<_40 v="Usable vehicles">
+			<_2 v="Name" />
+			<_3B v="" />
+		</_40>
+		<_3B v="" />
+	</_40>
+	<_34 v="generated_padc661" length="4" />
+	<_3B v="" />
+</root>

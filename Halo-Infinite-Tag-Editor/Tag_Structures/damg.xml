@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -181,6 +181,8 @@
 				<_41 v="Damage effect" />
 				<_2 v="Damage effect marker name" />
 				<_41 v="Looping effect" />
+				<_41 v="Generic healing effect" />
+				<_2 v="Generic healing effect marker name" />
 				<_37 v="Contextual Effects" />
 				<_36 v="Contextual Transition Effects" />
 				<_2 v="Ray cast marker" />

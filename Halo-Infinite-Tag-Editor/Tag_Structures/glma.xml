@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -29,6 +29,7 @@
 			<Flag v="blocks grapple aim assist" />
 			<Flag v="non-physical melee pass through" />
 			<Flag v="does not block seat entry" />
+			<Flag v="does not block object interaction line of sight" />
 		</_E>
 		<_34 v="generated_pad3ced" length="2" />
 		<_2 v="general armor" />
@@ -149,6 +150,7 @@
 			<Flag v="blocks grapple aim assist" />
 			<Flag v="non-physical melee pass through" />
 			<Flag v="does not block seat entry" />
+			<Flag v="does not block object interaction line of sight" />
 		</_E>
 		<_34 v="generated_pad3ced" length="2" />
 		<_2 v="general armor" />

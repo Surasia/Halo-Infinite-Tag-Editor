@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -158,6 +158,7 @@
 			<_5 v="rounds total initial" />
 			<_5 v="rounds total maximum" />
 			<_5 v="rounds loaded maximum" />
+			<_5 v="magazine partitions" />
 			<_5 v="rounds inventory maximum" />
 			<_5 v="rounds reloaded" />
 			<_B v="ammo refill type">
@@ -174,6 +175,7 @@
 			<_5 v="rounds total initial" />
 			<_5 v="rounds total maximum" />
 			<_5 v="rounds loaded maximum" />
+			<_5 v="magazine partitions" />
 			<_5 v="rounds inventory maximum" />
 			<_5 v="rounds reloaded" />
 			<_B v="ammo refill type">

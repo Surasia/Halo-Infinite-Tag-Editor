@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -158,6 +158,9 @@
 		<_37 v="" />
 		<_37 v="1.4x" />
 		<_14 v="1.4x" />
+		<_37 v="" />
+		<_37 v="1.6x" />
+		<_14 v="1.6x" />
 		<_37 v="" />
 		<_37 v="2.5x" />
 		<_14 v="2.5x" />

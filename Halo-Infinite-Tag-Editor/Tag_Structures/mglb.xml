@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -61,6 +61,10 @@
 	</_38>
 	<_37 v="default melee damage" />
 	<_40 v="default damage">
+		<_E v="flags">
+			<Flag v="play lunge explosion on all melee attacks" />
+		</_E>
+		<_34 v="generated_padd2d1" length="2" />
 		<_36 v="melee damage parameters" />
 		<_1B v="damage pyramid angles" />
 		<_14 v="damage pyramid depth" />
@@ -89,6 +93,14 @@
 	<_8 v="rebound angle" />
 	<_14 v="rebound speed" />
 	<_14 v="rebound ignore throttle time" />
+	<_37 v="" />
+	<_37 v="lunge raycast fallback" />
+	<_36 v="lunge raycast fallback" />
+	<_8 v="lunge raycast fallback max angle" />
+	<_40 v="lunge raycast fallback markers">
+		<_2 v="marker" />
+		<_3B v="" />
+	</_40>
 	<_37 v="" />
 	<_34 v="generated_pad39eb" length="4" />
 	<_3B v="" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -187,6 +187,14 @@
 		<_14 v="normal max grenade tokens" />
 		<_14 v="hard max grenade tokens" />
 		<_14 v="imposs. max grenade tokens" />
+		<_14 v="easy min grenade tokens" />
+		<_14 v="normal min grenade tokens" />
+		<_14 v="hard min grenade tokens" />
+		<_14 v="imposs. min grenade tokens" />
+		<_14 v="easy grenade clump theshold" />
+		<_14 v="normal grenade clump theshold" />
+		<_14 v="hard grenade clump theshold" />
+		<_14 v="imposs. grenade clump theshold" />
 		<_14 v="easy grenade token cooldown" />
 		<_14 v="normal grenade token cooldown" />
 		<_14 v="hard grenade token cooldown" />

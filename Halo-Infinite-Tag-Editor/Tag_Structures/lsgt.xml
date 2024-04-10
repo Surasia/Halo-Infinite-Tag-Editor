@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -38,6 +38,7 @@
 					<Flag v="PVS Don't use as an occluder" />
 					<Flag v="Subtract override from kit" />
 					<Flag v="Generate decorators" />
+					<Flag v="Is Trigger Volume" />
 				</_E>
 				<_A v="cinema only">
 					<Flag v="no override" />
@@ -129,6 +130,14 @@
 					<_3B v="" />
 				</_40>
 				<_41 v="owner bsp" />
+				<_A v="Trigger Volume Callback">
+					<Flag v="None" />
+				</_A>
+				<_34 v="generated_padfe88" length="3" />
+				<_36 v="bullet collision layer override" />
+				<_2 v="bullet collision layer override" />
+				<_36 v="play collision layer override" />
+				<_2 v="play collision layer override" />
 				<_3B v="" />
 			</_38>
 			<_19 v="Bounding Center" />
@@ -155,6 +164,7 @@
 					<Flag v="PVS Don't use as an occluder" />
 					<Flag v="Subtract override from kit" />
 					<Flag v="Generate decorators" />
+					<Flag v="Is Trigger Volume" />
 				</_E>
 				<_A v="cinema only">
 					<Flag v="no override" />
@@ -246,6 +256,14 @@
 					<_3B v="" />
 				</_40>
 				<_41 v="owner bsp" />
+				<_A v="Trigger Volume Callback">
+					<Flag v="None" />
+				</_A>
+				<_34 v="generated_padfe88" length="3" />
+				<_36 v="bullet collision layer override" />
+				<_2 v="bullet collision layer override" />
+				<_36 v="play collision layer override" />
+				<_2 v="play collision layer override" />
 				<_3B v="" />
 			</_38>
 			<_19 v="Bounding Center" />

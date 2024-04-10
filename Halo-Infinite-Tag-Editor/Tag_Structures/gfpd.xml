@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -270,12 +270,16 @@
 		<_F v="Contact Shadows">
 			<Flag v="Enabled" />
 		</_F>
+		<_F v="Contact Shadows Local Lights">
+			<Flag v="Enabled" />
+		</_F>
 		<_F v="Local Lights Low Shadow Sampling">
 			<Flag v="Enabled" />
 		</_F>
 		<_F v="Shadows For Non-Visible Objects">
 			<Flag v="Enabled" />
 		</_F>
+		<_34 v="generated_pad91b0" length="3" />
 		<_14 v="Local Lights Shadow Sampling Falloff" />
 		<_37 v="Single Screen" />
 		<_38 v="Single Screen Preset">
@@ -288,12 +292,16 @@
 			<_F v="Contact Shadows">
 				<Flag v="Enabled" />
 			</_F>
+			<_F v="Contact Shadows Local Lights">
+				<Flag v="Enabled" />
+			</_F>
 			<_F v="Local Lights Low Shadow Sampling">
 				<Flag v="Enabled" />
 			</_F>
 			<_F v="Shadows For Non-Visible Objects">
 				<Flag v="Enabled" />
 			</_F>
+			<_34 v="generated_padf8ff" length="3" />
 			<_14 v="Local Lights Shadow Sampling Falloff" />
 			<_3B v="" />
 		</_38>
@@ -309,12 +317,16 @@
 			<_F v="Contact Shadows">
 				<Flag v="Enabled" />
 			</_F>
+			<_F v="Contact Shadows Local Lights">
+				<Flag v="Enabled" />
+			</_F>
 			<_F v="Local Lights Low Shadow Sampling">
 				<Flag v="Enabled" />
 			</_F>
 			<_F v="Shadows For Non-Visible Objects">
 				<Flag v="Enabled" />
 			</_F>
+			<_34 v="generated_padf8ff" length="3" />
 			<_14 v="Local Lights Shadow Sampling Falloff" />
 			<_3B v="" />
 		</_38>
@@ -330,12 +342,16 @@
 			<_F v="Contact Shadows">
 				<Flag v="Enabled" />
 			</_F>
+			<_F v="Contact Shadows Local Lights">
+				<Flag v="Enabled" />
+			</_F>
 			<_F v="Local Lights Low Shadow Sampling">
 				<Flag v="Enabled" />
 			</_F>
 			<_F v="Shadows For Non-Visible Objects">
 				<Flag v="Enabled" />
 			</_F>
+			<_34 v="generated_padf8ff" length="3" />
 			<_14 v="Local Lights Shadow Sampling Falloff" />
 			<_3B v="" />
 		</_38>
@@ -351,12 +367,16 @@
 			<_F v="Contact Shadows">
 				<Flag v="Enabled" />
 			</_F>
+			<_F v="Contact Shadows Local Lights">
+				<Flag v="Enabled" />
+			</_F>
 			<_F v="Local Lights Low Shadow Sampling">
 				<Flag v="Enabled" />
 			</_F>
 			<_F v="Shadows For Non-Visible Objects">
 				<Flag v="Enabled" />
 			</_F>
+			<_34 v="generated_padf8ff" length="3" />
 			<_14 v="Local Lights Shadow Sampling Falloff" />
 			<_3B v="" />
 		</_38>
@@ -382,12 +402,8 @@
 		<_6 v="Perlin Worley Noise Resolution" />
 		<_6 v="Worley Noise Resolution" />
 		<_6 v="Curl Noise Resolution" />
-		<_6 v="Volumetric Clouds Shape Ray Steps" />
 		<_6 v="Volumetric Clouds Lighting Ray Steps" />
-		<_14 v="Volumetric Clouds Beer Scale" />
-		<_14 v="Volumetric Clouds Cornette Scale" />
-		<_14 v="Volumetric Clouds Coverage Strength" />
-		<_6 v="Volumetric Clouds Perf Tier" />
+		<_6 v="Volumetric Clouds Max Step Count" />
 		<_37 v="Single Screen" />
 		<_38 v="Single Screen Preset">
 			<_F v="Volumetric Clouds Enable Flag">
@@ -400,12 +416,8 @@
 			<_6 v="Perlin Worley Noise Resolution" />
 			<_6 v="Worley Noise Resolution" />
 			<_6 v="Curl Noise Resolution" />
-			<_6 v="Volumetric Clouds Shape Ray Steps" />
 			<_6 v="Volumetric Clouds Lighting Ray Steps" />
-			<_14 v="Volumetric Clouds Beer Scale" />
-			<_14 v="Volumetric Clouds Cornette Scale" />
-			<_14 v="Volumetric Clouds Coverage Strength" />
-			<_6 v="Volumetric Clouds Perf Tier" />
+			<_6 v="Volumetric Clouds Max Step Count" />
 			<_3B v="" />
 		</_38>
 		<_37 v="" />
@@ -421,12 +433,8 @@
 			<_6 v="Perlin Worley Noise Resolution" />
 			<_6 v="Worley Noise Resolution" />
 			<_6 v="Curl Noise Resolution" />
-			<_6 v="Volumetric Clouds Shape Ray Steps" />
 			<_6 v="Volumetric Clouds Lighting Ray Steps" />
-			<_14 v="Volumetric Clouds Beer Scale" />
-			<_14 v="Volumetric Clouds Cornette Scale" />
-			<_14 v="Volumetric Clouds Coverage Strength" />
-			<_6 v="Volumetric Clouds Perf Tier" />
+			<_6 v="Volumetric Clouds Max Step Count" />
 			<_3B v="" />
 		</_38>
 		<_37 v="" />
@@ -442,12 +450,8 @@
 			<_6 v="Perlin Worley Noise Resolution" />
 			<_6 v="Worley Noise Resolution" />
 			<_6 v="Curl Noise Resolution" />
-			<_6 v="Volumetric Clouds Shape Ray Steps" />
 			<_6 v="Volumetric Clouds Lighting Ray Steps" />
-			<_14 v="Volumetric Clouds Beer Scale" />
-			<_14 v="Volumetric Clouds Cornette Scale" />
-			<_14 v="Volumetric Clouds Coverage Strength" />
-			<_6 v="Volumetric Clouds Perf Tier" />
+			<_6 v="Volumetric Clouds Max Step Count" />
 			<_3B v="" />
 		</_38>
 		<_37 v="" />
@@ -463,12 +467,8 @@
 			<_6 v="Perlin Worley Noise Resolution" />
 			<_6 v="Worley Noise Resolution" />
 			<_6 v="Curl Noise Resolution" />
-			<_6 v="Volumetric Clouds Shape Ray Steps" />
 			<_6 v="Volumetric Clouds Lighting Ray Steps" />
-			<_14 v="Volumetric Clouds Beer Scale" />
-			<_14 v="Volumetric Clouds Cornette Scale" />
-			<_14 v="Volumetric Clouds Coverage Strength" />
-			<_6 v="Volumetric Clouds Perf Tier" />
+			<_6 v="Volumetric Clouds Max Step Count" />
 			<_3B v="" />
 		</_38>
 		<_37 v="" />

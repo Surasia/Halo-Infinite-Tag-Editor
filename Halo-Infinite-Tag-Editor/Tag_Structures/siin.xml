@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -25,6 +25,7 @@
 		<_36 v="SINGLE DOMAIN INTERPOLATION" />
 		<_14 v="discrepancy_threshold_above_which_we_use_blending" />
 		<_14 v="coming_to_rest_speed" />
+		<_14 v="minimum engaged throttle magnitude" />
 		<_14 v="coming_to_rest_maximum_ignorable_error" />
 		<_37 v="Velocity bumps" />
 		<_38 v="velocity bumps">
@@ -62,6 +63,7 @@
 		<_36 v="SINGLE DOMAIN INTERPOLATION" />
 		<_14 v="discrepancy_threshold_above_which_we_use_blending" />
 		<_14 v="coming_to_rest_speed" />
+		<_14 v="minimum engaged throttle magnitude" />
 		<_14 v="coming_to_rest_maximum_ignorable_error" />
 		<_37 v="Velocity bumps" />
 		<_38 v="velocity bumps">
@@ -99,6 +101,7 @@
 		<_36 v="SINGLE DOMAIN INTERPOLATION" />
 		<_14 v="discrepancy_threshold_above_which_we_use_blending" />
 		<_14 v="coming_to_rest_speed" />
+		<_14 v="minimum engaged throttle magnitude" />
 		<_14 v="coming_to_rest_maximum_ignorable_error" />
 		<_37 v="Velocity bumps" />
 		<_38 v="velocity bumps">
@@ -136,6 +139,7 @@
 		<_36 v="SINGLE DOMAIN INTERPOLATION" />
 		<_14 v="discrepancy_threshold_above_which_we_use_blending" />
 		<_14 v="coming_to_rest_speed" />
+		<_14 v="minimum engaged throttle magnitude" />
 		<_14 v="coming_to_rest_maximum_ignorable_error" />
 		<_37 v="Velocity bumps" />
 		<_38 v="velocity bumps">

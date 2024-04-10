@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -11,28 +11,34 @@
 	</_38>
 	<_26 v="subtitle rect width" />
 	<_26 v="subtitle rect height" />
+	<_6 v="absolute minimum font size allowed for subtitles" />
+	<_6 v="default subtitle size" />
+	<_6 v="maximum font size allowed for subtitles at the minimum horizontal resolution" />
+	<_6 v="absolute maximum font size allowed at max horizontal resolution (or anything bigger than it)" />
+	<_14 v="horizontal padding at minimum horizontal resolution" />
+	<_14 v="horizontal padding at max horizontal resolution" />
+	<_14 v="vertical padding at minimum horizontal resolution" />
+	<_14 v="vertical padding at max horizontal resolution" />
+	<_A v="default subtitle vertical anchoring">
+		<Flag v="Bottom" />
+		<Flag v="Center" />
+		<Flag v="Top" />
+		<Flag v="Unspecified" />
+	</_A>
+	<_34 v="generated_padf9a9" length="3" />
+	<_14 v="minimum horizontal resolution for font and padding scaling purposes" />
+	<_14 v="maximum horizontal resolution for font and paddingscaling purposes" />
+	<_6 v="step size for the subtitle slider between font sizes" />
 	<_1F v="default subtitle color" />
 	<_1F v="default subtitle shadow color" />
 	<_20 v="default subtitle background color" />
-	<_25 v="default subtitle background border X" />
-	<_25 v="default subtitle background border Y" />
-	<_25 v="small subtitle background border X" />
-	<_25 v="small subtitle background border Y" />
-	<_25 v="large subtitle background border X" />
-	<_25 v="large subtitle background border Y" />
-	<_25 v="small 4K subtitle background border X" />
-	<_25 v="small 4K subtitle background border Y" />
-	<_25 v="medium 4K subtitle background border X" />
-	<_25 v="medium 4K subtitle background border Y" />
-	<_25 v="large 4K subtitle background border X" />
-	<_25 v="large 4K subtitle background border Y" />
 	<_14 v="minimum display time per word" />
 	<_14 v="minimum display time per page of subtitles" />
 	<_A v="use uniform durations for autopaginated subtitles">
 		<Flag v="Disabled" />
 		<Flag v="Enabled" />
 	</_A>
-	<_34 v="generated_padf9a9" length="3" />
+	<_34 v="generated_paddfc8" length="3" />
 	<_14 v="time to fade out completed subtitles" />
 	<_14 v="duplicate subtitles requests are allowed only after this many seconds" />
 	<_14 v="priority lock cooldown duration" />
@@ -43,10 +49,10 @@
 		<Flag v="PreserveAnyAboveThreshold" />
 		<Flag v="PreserveAll" />
 	</_A>
-	<_34 v="generated_paddfc8" length="3" />
+	<_34 v="generated_pad9313" length="3" />
 	<_14 v="percent of a subtitle duration required to pass before we allow it to be ejected" />
 	<_5 v="max lines of text per page of subtitles" />
-	<_34 v="generated_pad9313" length="2" />
+	<_34 v="generated_pad138a" length="2" />
 	<_14 v="subtitle threshold to reset character moniker in seconds" />
 	<_41 v="Unicode tag reference to subtitles character IDs list" />
 	<_1F v="Default subtitle speaker color" />

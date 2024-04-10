@@ -2,7 +2,7 @@
 <root>
 	<_38 v="item">
 		<_38 v="object">
-			<_38 v="">
+			<_38 v="AnyTag">
 				<_7 v="vtable space" />
 				<_38 v="internal struct">
 					<_6 v="global tag ID" />
@@ -598,6 +598,10 @@
 					<Flag v="navgenerator volume" />
 					<Flag v="navcutter volume" />
 					<Flag v="light probe volume" />
+					<Flag v="AI spawn point" />
+					<Flag v="AI zone" />
+					<Flag v="AI phantom spawn point" />
+					<Flag v="AI droppod spawn point" />
 				</_A>
 				<_F v="teleporter passability">
 					<Flag v="disallow players" />
@@ -613,6 +617,7 @@
 				<_34 v="generated_padd1ba" length="1" />
 				<_5 v="number of fx color overrides" />
 				<_34 v="generated_pad1e6f" length="2" />
+				<_14 v="starting fx scale (for Forge Placements)" />
 				<_36 v="GOAL AND RESPAWN ZONE OBJECT BOUNDARY" />
 				<_14 v="boundary width/radius" />
 				<_14 v="boundary box length" />
@@ -693,6 +698,7 @@
 					<Flag v="Normal" />
 					<Flag v="Fixed" />
 					<Flag v="Phased" />
+					<Flag v="ProjectileOnly" />
 				</_A>
 				<_34 v="generated_pad6b24" length="1" />
 				<_2 v="Default Primary Color" />
@@ -706,6 +712,7 @@
 				<_2 v="Default Label 2" />
 				<_2 v="Default Label 3" />
 				<_2 v="Default Label 4" />
+				<_34 v="generated_pad048e" length="4" />
 				<_7 v="m_defaultBoundaryPipelineState" />
 				<_7 v="m_sphereBoundaryPipelineStates" />
 				<_7 v="m_cylinderBoundaryPipelineStates" />
@@ -719,7 +726,11 @@
 					<Flag v="Vehicle" />
 					<Flag v="Crouch" />
 				</_A>
-				<_34 v="generated_pad048e" length="3" />
+				<_A v="Script Brain Type">
+					<Flag v="Map Script Brain" />
+					<Flag v="Mode Script Brain" />
+				</_A>
+				<_34 v="generated_pad5143" length="2" />
 				<_3B v="" />
 			</_40>
 			<_40 v="Forge data">
@@ -1110,6 +1121,8 @@
 					<Flag v="frame_attachment_switch_to_secondary_parent_marker" />
 					<Flag v="frame_attachment_switch_to_default_parent_marker" />
 					<Flag v="allow_sprint_interrupt" />
+					<Flag v="hide_3p_primary_weapon" />
+					<Flag v="show_3p_primary_weapon" />
 				</_B>
 				<_34 v="generated_paddc16" length="2" />
 				<_3B v="" />
@@ -1211,12 +1224,56 @@
 			<_40 v="shroud generator">
 				<_14 v="radius" />
 				<_2 v="active object function name" />
+				<_15 v="active threshold fraction" />
 				<_41 v="shroud created effect" />
 				<_41 v="shroud destroyed effect" />
 				<_2 v="biped effect marker" />
 				<_41 v="biped enter effect" />
 				<_41 v="biped inside effect" />
 				<_41 v="biped leave effect" />
+				<_3B v="" />
+			</_40>
+			<_40 v="repair field">
+				<_37 v="Field Parameters" />
+				<_D v="field flags">
+					<Flag v="revives participant bipeds" />
+					<Flag v="exclude enemies" />
+				</_D>
+				<_2 v="dome field effect marker" />
+				<_41 v="dome field effect" />
+				<_2 v="biped enter effect marker" />
+				<_41 v="biped enter effect" />
+				<_2 v="biped exit effect marker" />
+				<_41 v="biped exit effect" />
+				<_14 v="arming time" />
+				<_37 v="" />
+				<_37 v="Regen Parameters" />
+				<_D v="regen flags">
+					<Flag v="enable health repair" />
+					<Flag v="enable shield repair" />
+				</_D>
+				<_14 v="regen radius" />
+				<_14 v="regen rate" />
+				<_14 v="biped regen amount" />
+				<_14 v="vehicle regen amount" />
+				<_37 v="" />
+				<_37 v="Biped Revive Parameters" />
+				<_14 v="revive monitor rate" />
+				<_14 v="revive delay" />
+				<_2 v="revive device action string" />
+				<_37 v="" />
+				<_37 v="Biped Healing VFX" />
+				<_2 v="biped healing effect marker" />
+				<_41 v="biped healing effect" />
+				<_41 v="biped healing complete effect" />
+				<_2 v="AI bubble effect marker" />
+				<_41 v="AI bubble in field effect" />
+				<_37 v="" />
+				<_37 v="Vehicle Healing VFX" />
+				<_2 v="vehicle healing effect marker" />
+				<_41 v="vehicle healing effect" />
+				<_41 v="vehicle healing complete effect" />
+				<_37 v="" />
 				<_3B v="" />
 			</_40>
 			<_37 v="" />
@@ -1287,6 +1344,7 @@
 				<_3B v="" />
 			</_40>
 			<_37 v="" />
+			<_6 v="runtime regions with physics" />
 			<_34 v="generated_paddd0c" length="4" />
 			<_3B v="" />
 		</_38>
@@ -1375,6 +1433,7 @@
 		<_14 v="huge unit (stowed)" />
 		<_41 v="grounded friction settings" />
 		<_41 v="Tossed Override" />
+		<_41 v="legacy networking override" />
 		<_37 v="Override toss properties" />
 		<_14 v="toss angle" />
 		<_14 v="toss angle max elevation" />
@@ -1387,6 +1446,7 @@
 		<_1C v="Item throw rotation offset" />
 		<_37 v="" />
 		<_37 v="" />
+		<_34 v="generated_pad9d08" length="4" />
 		<_3B v="" />
 	</_38>
 	<_37 v="$$$ WEAPON $$$" />
@@ -1530,6 +1590,10 @@
 	<_41 v="detonation" />
 	<_41 v="detonation damage effect" />
 	<_40 v="melee damage parameters">
+		<_E v="flags">
+			<Flag v="play lunge explosion on all melee attacks" />
+		</_E>
+		<_34 v="generated_padd2d1" length="2" />
 		<_36 v="melee damage parameters" />
 		<_1B v="damage pyramid angles" />
 		<_14 v="damage pyramid depth" />
@@ -1738,6 +1802,7 @@
 	</_B>
 	<_34 v="generated_padf92f" length="2" />
 	<_14 v="active camo ding" />
+	<_14 v="throw active camo ding" />
 	<_15 v="AI Active Camo Scaling" />
 	<_2 v="handle node" />
 	<_36 v="weapon labels" />
@@ -1793,8 +1858,8 @@
 			<Flag v="displays ammo as percentage of max" />
 			<Flag v="hide ammo" />
 			<Flag v="always show ally nav point shield and health" />
-			<Flag v="Don�t animate bloom" />
-			<Flag v="Don�t animate Aim Assist" />
+			<Flag v="Don't animate bloom" />
+			<Flag v="Don't animate Aim Assist" />
 		</_F>
 		<_34 v="generated_pad6ebb" length="3" />
 		<_40 v="first person">
@@ -1837,11 +1902,13 @@
 			<Flag v="magazine cannot change state while firing" />
 			<Flag v="allow overheated reload when empty" />
 			<Flag v="bottomless inventory" />
+			<Flag v="disable function overlays during magazine partition cycling" />
 		</_D>
 		<_5 v="rounds recharged" />
 		<_5 v="rounds total initial" />
 		<_5 v="rounds total maximum" />
 		<_5 v="rounds loaded maximum" />
+		<_5 v="magazine partitions" />
 		<_5 v="runtime rounds inventory maximum" />
 		<_B v="ammo refill type">
 			<Flag v="None" />
@@ -1851,9 +1918,10 @@
 			<Flag v="Shock" />
 			<Flag v="Power weapon" />
 		</_B>
+		<_34 v="generated_padccf5" length="2" />
 		<_14 v="reload dialogue time" />
 		<_5 v="rounds reloaded" />
-		<_34 v="generated_padccf5" length="2" />
+		<_34 v="generated_padb314" length="2" />
 		<_14 v="chamber time" />
 		<_41 v="reloading effect" />
 		<_41 v="reloading damage effect" />
@@ -2011,6 +2079,7 @@
 			<_15 v="blurred rate of fire" />
 			<_23 v="shots per fire" />
 			<_14 v="fire recovery time" />
+			<_14 v="empty recovery time" />
 			<_15 v="soft recovery fraction" />
 			<_14 v="melee  fire recovery time" />
 			<_15 v="melee soft recovery fraction" />
@@ -2057,6 +2126,7 @@
 		</_B>
 		<_34 v="generated_pad276b" length="2" />
 		<_14 v="event_synchronized_projectiles_per_second" />
+		<_14 v="event broadcasted projectiles per second server override" />
 		<_14 v="maximum_barrel_error_for_event_synchronization" />
 		<_38 v="error turn rates">
 			<_37 v="error turn rates" />
@@ -2108,6 +2178,8 @@
 			<_14 v="zoom penalty" />
 			<_14 v="jump penalty low" />
 			<_14 v="jump penalty" />
+			<_14 v="cycle magazine penalty low" />
+			<_14 v="cycle magazine penalty" />
 			<_36 v="barrel_error penalty functions" />
 			<_37 v="single wield penalties" />
 			<_38 v="single wield penalties">
@@ -3014,5 +3086,6 @@
 		<_3B v="" />
 	</_38>
 	<_14 v="ammo pickup delay" />
+	<_34 v="generated_pad94b1" length="4" />
 	<_3B v="" />
 </root>

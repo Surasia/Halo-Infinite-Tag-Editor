@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -234,6 +234,7 @@
 			<_A v="magnification profile setting">
 				<Flag v="None" />
 				<Flag v="x1_4" />
+				<Flag v="x1_6" />
 				<Flag v="x2_5" />
 				<Flag v="x3_0" />
 				<Flag v="x5_0" />

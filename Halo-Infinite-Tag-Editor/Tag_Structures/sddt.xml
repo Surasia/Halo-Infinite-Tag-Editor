@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -137,27 +137,6 @@
 		</_40>
 		<_3B v="" />
 	</_38>
-	<_38 v="planar fog set">
-		<_40 v="planar fogs">
-			<_2 v="name" />
-			<_40 v="vertices">
-				<_17 v="position" />
-				<_3B v="" />
-			</_40>
-			<_40 v="triangles">
-				<_40 v="planes">
-					<_1E v="plane" />
-					<_3B v="" />
-				</_40>
-				<_3B v="" />
-			</_40>
-			<_14 v="depth" />
-			<_19 v="normal" />
-			<_3B v="" />
-		</_40>
-		<_3B v="" />
-	</_38>
-	<_34 v="generated_pad560c" length="4" />
 	<_37 v="rain" />
 	<_38 v="render geometry">
 		<_D v="runtime flags">
@@ -670,7 +649,7 @@
 		<_41 v="Foliage material palette reference" />
 		<_5 v="Runtime geo mesh index" />
 		<_5 v="unique io index" />
-		<_E v="flags">
+		<_D v="flags">
 			<Flag v="render only" />
 			<Flag v="does not block aoe damage" />
 			<Flag v="remove from dynamic shadow geometry" />
@@ -687,8 +666,8 @@
 			<Flag v="Exclude from broadphase calculation" />
 			<Flag v="can generate decorators" />
 			<Flag v="isHLOD" />
-		</_E>
-		<_34 v="generated_pad89b2" length="2" />
+			<Flag v="Is a non-reactive Water Plane" />
+		</_D>
 		<_14 v="bounds x0" />
 		<_14 v="bounds x1" />
 		<_14 v="bounds y0" />
@@ -697,7 +676,7 @@
 		<_14 v="bounds z1" />
 		<_17 v="world bounding sphere center" />
 		<_14 v="world bounding sphere radius" />
-		<_34 v="generated_padd667" length="4" />
+		<_34 v="generated_pad89b2" length="4" />
 		<_7 v="Placement Checksum" />
 		<_A v="pathfinding policy">
 			<Flag v="cut-out" />
@@ -718,7 +697,7 @@
 			<Flag v="Coatings Setup On Initial Frame" />
 		</_E>
 		<_3D v="hlod index" />
-		<_34 v="generated_pad231c" length="2" />
+		<_34 v="generated_padd667" length="2" />
 		<_38 v="lod Overrides">
 			<_40 v="Lod Levels Block">
 				<_14 v="lodTransitionDistance" />
@@ -732,7 +711,7 @@
 		</_38>
 		<_2 v="style id" />
 		<_6 v="damage style index" />
-		<_34 v="generated_pad6fd1" length="4" />
+		<_34 v="generated_pad231c" length="4" />
 		<_7 v="style tag override data" />
 		<_38 v="material override data">
 			<_40 v="per Instance Material Block">

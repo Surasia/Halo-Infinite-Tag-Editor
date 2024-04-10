@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -11,6 +11,11 @@
 	</_38>
 	<_41 v="Static IO Representation" />
 	<_2 v="Asset variant to be used with the Static IO Representation." />
+	<_F v="Static IO behaviour flags">
+		<Flag v="Inherits flags from secondary crate representation." />
+		<Flag v="Disables interaction of water effects." />
+	</_F>
+	<_34 v="generated_pad750f" length="3" />
 	<_40 v="Object Representations">
 		<_2 v="Representation Name" />
 		<_2 v="Crate Variant" />
@@ -33,7 +38,7 @@
 	<_F v="Placement Preview">
 		<Flag v="Enabled" />
 	</_F>
-	<_34 v="generated_pad750f" length="3" />
+	<_34 v="generated_pad285a" length="3" />
 	<_38 v="Configuration Options">
 		<_E v="Property Flags">
 			<Flag v="Yaw Rotation Only" />
@@ -45,6 +50,7 @@
 			<Flag v="Disable Fixed Physics" />
 			<Flag v="Disable Phased Physics" />
 			<Flag v="Allow Boundary Scale" />
+			<Flag v="Disable FX Scale" />
 			<Flag v="Disable Rotation" />
 		</_E>
 		<_34 v="generated_padffaf" length="2" />
@@ -61,8 +67,25 @@
 			<Flag v="Exclude Navmesh" />
 			<Flag v="Exclude Acoustics" />
 		</_F>
-		<_34 v="generated_padb2fa" length="1" />
-		<_37 v="Scale Limits" />
+		<_A v="Trigger Volume Type">
+			<Flag v="None" />
+		</_A>
+		<_34 v="generated_padb2fa" length="2" />
+		<_36 v="bullet collision layer override" />
+		<_2 v="Bullet collision layer override" />
+		<_36 v="play collision layer override" />
+		<_2 v="Play collision layer override" />
+		<_37 v="Scale Settings" />
+		<_B v="ScaleRestriction">
+			<Flag v="None" />
+			<Flag v="X" />
+			<Flag v="Y" />
+			<Flag v="Z" />
+			<Flag v="XY" />
+			<Flag v="XZ" />
+			<Flag v="YZ" />
+			<Flag v="Unscalable" />
+		</_B>
 		<_B v="Scale Limit Type">
 			<Flag v="Unset" />
 			<Flag v="Scale Multiplier" />
@@ -80,6 +103,11 @@
 				<_2 v="Swatch Group Name" />
 				<_3B v="" />
 			</_40>
+			<_A v="Global Swatch Groups Behavior">
+				<Flag v="none" />
+				<Flag v="include" />
+				<Flag v="override" />
+			</_A>
 			<_A v="Force Region Always Visible">
 				<Flag v="enabled" />
 				<Flag v="disabled" />
@@ -100,8 +128,9 @@
 				<Flag v="enabled" />
 				<Flag v="disabled" />
 			</_A>
-			<_34 v="generated_padc70f" length="3" />
+			<_34 v="generated_padc70f" length="2" />
 			<_2 v="Color Variant" />
+			<_14 v="Intial Color Intensity" />
 			<_14 v="Color Spread" />
 			<_3B v="" />
 		</_38>
@@ -112,6 +141,11 @@
 				<_2 v="Swatch Group Name" />
 				<_3B v="" />
 			</_40>
+			<_A v="Global Swatch Groups Behavior">
+				<Flag v="none" />
+				<Flag v="include" />
+				<Flag v="override" />
+			</_A>
 			<_A v="Force Region Always Visible">
 				<Flag v="enabled" />
 				<Flag v="disabled" />
@@ -132,8 +166,9 @@
 				<Flag v="enabled" />
 				<Flag v="disabled" />
 			</_A>
-			<_34 v="generated_padc70f" length="3" />
+			<_34 v="generated_padc70f" length="2" />
 			<_2 v="Color Variant" />
+			<_14 v="Intial Color Intensity" />
 			<_14 v="Color Spread" />
 			<_3B v="" />
 		</_38>
@@ -144,6 +179,11 @@
 				<_2 v="Swatch Group Name" />
 				<_3B v="" />
 			</_40>
+			<_A v="Global Swatch Groups Behavior">
+				<Flag v="none" />
+				<Flag v="include" />
+				<Flag v="override" />
+			</_A>
 			<_A v="Force Region Always Visible">
 				<Flag v="enabled" />
 				<Flag v="disabled" />
@@ -164,8 +204,9 @@
 				<Flag v="enabled" />
 				<Flag v="disabled" />
 			</_A>
-			<_34 v="generated_padc70f" length="3" />
+			<_34 v="generated_padc70f" length="2" />
 			<_2 v="Color Variant" />
+			<_14 v="Intial Color Intensity" />
 			<_14 v="Color Spread" />
 			<_3B v="" />
 		</_38>
@@ -176,6 +217,11 @@
 				<_2 v="Swatch Group Name" />
 				<_3B v="" />
 			</_40>
+			<_A v="Global Swatch Groups Behavior">
+				<Flag v="none" />
+				<Flag v="include" />
+				<Flag v="override" />
+			</_A>
 			<_A v="Force Region Always Visible">
 				<Flag v="enabled" />
 				<Flag v="disabled" />
@@ -196,8 +242,9 @@
 				<Flag v="enabled" />
 				<Flag v="disabled" />
 			</_A>
-			<_34 v="generated_padc70f" length="3" />
+			<_34 v="generated_padc70f" length="2" />
 			<_2 v="Color Variant" />
+			<_14 v="Intial Color Intensity" />
 			<_14 v="Color Spread" />
 			<_3B v="" />
 		</_38>
@@ -213,7 +260,13 @@
 			<_3B v="" />
 		</_40>
 		<_37 v="" />
+		<_A v="Grime Global Swatch Groups Behavior">
+			<Flag v="none" />
+			<Flag v="include" />
+			<Flag v="override" />
+		</_A>
 		<_37 v="" />
+		<_34 v="generated_pad7f38" length="3" />
 		<_3B v="" />
 	</_38>
 	<_38 v="scriptable properties">
@@ -250,5 +303,6 @@
 		</_40>
 		<_3B v="" />
 	</_38>
+	<_34 v="generated_paddba5" length="4" />
 	<_3B v="" />
 </root>

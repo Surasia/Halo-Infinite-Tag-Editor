@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -10,14 +10,6 @@
 		<_3B v="" />
 	</_38>
 	<_6 v="Version" />
-	<_37 v="GLOBAL QUALITY SETTINGS" />
-	<_38 v="Global lightmapper settings">
-		<_D v="Global flags">
-			<Flag v="Is Farm Burn" />
-		</_D>
-		<_3B v="" />
-	</_38>
-	<_37 v="" />
 	<_37 v="RUNTIME SETTINGS" />
 	<_38 v="Runtime settings">
 		<_38 v="visual environment">
@@ -4263,6 +4255,5 @@
 		<_6 v="Maximum texture size during bake" />
 		<_3B v="" />
 	</_38>
-	<_34 v="generated_pad54e9" length="4" />
 	<_3B v="" />
 </root>

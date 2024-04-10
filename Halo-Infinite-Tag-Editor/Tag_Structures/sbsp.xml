@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -704,7 +704,7 @@
 		<_41 v="Foliage material palette reference" />
 		<_5 v="Runtime geo mesh index" />
 		<_5 v="unique io index" />
-		<_E v="flags">
+		<_D v="flags">
 			<Flag v="render only" />
 			<Flag v="does not block aoe damage" />
 			<Flag v="remove from dynamic shadow geometry" />
@@ -721,8 +721,8 @@
 			<Flag v="Exclude from broadphase calculation" />
 			<Flag v="can generate decorators" />
 			<Flag v="isHLOD" />
-		</_E>
-		<_34 v="generated_pad89b2" length="2" />
+			<Flag v="Is a non-reactive Water Plane" />
+		</_D>
 		<_14 v="bounds x0" />
 		<_14 v="bounds x1" />
 		<_14 v="bounds y0" />
@@ -731,7 +731,7 @@
 		<_14 v="bounds z1" />
 		<_17 v="world bounding sphere center" />
 		<_14 v="world bounding sphere radius" />
-		<_34 v="generated_padd667" length="4" />
+		<_34 v="generated_pad89b2" length="4" />
 		<_7 v="Placement Checksum" />
 		<_A v="pathfinding policy">
 			<Flag v="cut-out" />
@@ -752,7 +752,7 @@
 			<Flag v="Coatings Setup On Initial Frame" />
 		</_E>
 		<_3D v="hlod index" />
-		<_34 v="generated_pad231c" length="2" />
+		<_34 v="generated_padd667" length="2" />
 		<_38 v="lod Overrides">
 			<_40 v="Lod Levels Block">
 				<_14 v="lodTransitionDistance" />
@@ -766,7 +766,7 @@
 		</_38>
 		<_2 v="style id" />
 		<_6 v="damage style index" />
-		<_34 v="generated_pad6fd1" length="4" />
+		<_34 v="generated_pad231c" length="4" />
 		<_7 v="style tag override data" />
 		<_38 v="material override data">
 			<_40 v="per Instance Material Block">
@@ -812,7 +812,7 @@
 		<_41 v="Foliage material palette reference" />
 		<_5 v="Runtime geo mesh index" />
 		<_5 v="unique io index" />
-		<_E v="flags">
+		<_D v="flags">
 			<Flag v="render only" />
 			<Flag v="does not block aoe damage" />
 			<Flag v="remove from dynamic shadow geometry" />
@@ -829,8 +829,8 @@
 			<Flag v="Exclude from broadphase calculation" />
 			<Flag v="can generate decorators" />
 			<Flag v="isHLOD" />
-		</_E>
-		<_34 v="generated_pad89b2" length="2" />
+			<Flag v="Is a non-reactive Water Plane" />
+		</_D>
 		<_14 v="bounds x0" />
 		<_14 v="bounds x1" />
 		<_14 v="bounds y0" />
@@ -839,7 +839,7 @@
 		<_14 v="bounds z1" />
 		<_17 v="world bounding sphere center" />
 		<_14 v="world bounding sphere radius" />
-		<_34 v="generated_padd667" length="4" />
+		<_34 v="generated_pad89b2" length="4" />
 		<_7 v="Placement Checksum" />
 		<_A v="pathfinding policy">
 			<Flag v="cut-out" />
@@ -860,7 +860,7 @@
 			<Flag v="Coatings Setup On Initial Frame" />
 		</_E>
 		<_3D v="hlod index" />
-		<_34 v="generated_pad231c" length="2" />
+		<_34 v="generated_padd667" length="2" />
 		<_38 v="lod Overrides">
 			<_40 v="Lod Levels Block">
 				<_14 v="lodTransitionDistance" />
@@ -874,7 +874,7 @@
 		</_38>
 		<_2 v="style id" />
 		<_6 v="damage style index" />
-		<_34 v="generated_pad6fd1" length="4" />
+		<_34 v="generated_pad231c" length="4" />
 		<_7 v="style tag override data" />
 		<_38 v="material override data">
 			<_40 v="per Instance Material Block">
@@ -932,20 +932,30 @@
 		</_D>
 		<_6 v="m_guid" />
 		<_39 v="havok body ID array">
-			<_3E v="havok body ID" />
+			<_3F v="havok body ID" />
 			<_3B v="" />
-			<_3E v="havok body ID" />
+			<_3F v="havok body ID" />
 			<_3B v="" />
-			<_3E v="havok body ID" />
+			<_3F v="havok body ID" />
 			<_3B v="" />
-			<_3E v="havok body ID" />
+			<_3F v="havok body ID" />
 			<_3B v="" />
 		</_39>
 		<_F v="flags">
 			<Flag v="Allow decals" />
+			<Flag v="Is Trigger Volume" />
 		</_F>
 		<_34 v="generated_pad119d" length="7" />
 		<_7 v="m_scene" />
+		<_A v="Trigger Volume Callback Type">
+			<Flag v="None" />
+		</_A>
+		<_34 v="generated_padf7bc" length="3" />
+		<_36 v="bullet collision layer override" />
+		<_2 v="bullet collision layer override" />
+		<_36 v="play collision layer override" />
+		<_2 v="play collision layer override" />
+		<_34 v="generated_padab07" length="4" />
 		<_3B v="" />
 	</_40>
 	<_6 v="instanced physics instances Flags" />
@@ -953,120 +963,6 @@
 	<_6 v="instanced physics instances Vector2" />
 	<_6 v="Instance Geometry Tag Instance Count" />
 	<_7 v="Instance Postprocess Checksum" />
-	<_40 v="debug info">
-		<_40 v="clusters">
-			<_E v="errors">
-				<Flag v="multiple fog planes" />
-				<Flag v="fog zone collision" />
-				<Flag v="fog zone immersion" />
-			</_E>
-			<_E v="warnings">
-				<Flag v="multiple visible fog planes" />
-				<Flag v="visible fog cluster omission" />
-				<Flag v="fog plane missed render-bsp" />
-			</_E>
-			<_40 v="lines">
-				<_B v="type">
-					<Flag v="fog plane boundary edge" />
-					<Flag v="fog plane internal edge" />
-					<Flag v="fog zone floodfill" />
-					<Flag v="fog zone cluster centroid" />
-					<Flag v="fog zone cluster geometry" />
-					<Flag v="fog zone portal centroid" />
-					<Flag v="fog zone portal geometry" />
-				</_B>
-				<_5 v="code" />
-				<_5 v="pad thai" />
-				<_34 v="generated_pada37a" length="2" />
-				<_17 v="point 0" />
-				<_17 v="point 1" />
-				<_3B v="" />
-			</_40>
-			<_40 v="fog plane indices">
-				<_6 v="index" />
-				<_3B v="" />
-			</_40>
-			<_40 v="visible fog plane indices">
-				<_6 v="index" />
-				<_3B v="" />
-			</_40>
-			<_40 v="vis-fog omission cluster indices">
-				<_6 v="index" />
-				<_3B v="" />
-			</_40>
-			<_40 v="containing fog zone indices">
-				<_6 v="index" />
-				<_3B v="" />
-			</_40>
-			<_3B v="" />
-		</_40>
-		<_40 v="fog planes">
-			<_6 v="fog zone index" />
-			<_6 v="connected plane designator" />
-			<_40 v="lines">
-				<_B v="type">
-					<Flag v="fog plane boundary edge" />
-					<Flag v="fog plane internal edge" />
-					<Flag v="fog zone floodfill" />
-					<Flag v="fog zone cluster centroid" />
-					<Flag v="fog zone cluster geometry" />
-					<Flag v="fog zone portal centroid" />
-					<Flag v="fog zone portal geometry" />
-				</_B>
-				<_5 v="code" />
-				<_5 v="pad thai" />
-				<_34 v="generated_pada37a" length="2" />
-				<_17 v="point 0" />
-				<_17 v="point 1" />
-				<_3B v="" />
-			</_40>
-			<_40 v="intersected cluster indices">
-				<_6 v="index" />
-				<_3B v="" />
-			</_40>
-			<_40 v="inf. extent cluster indices">
-				<_6 v="index" />
-				<_3B v="" />
-			</_40>
-			<_3B v="" />
-		</_40>
-		<_40 v="fog zones">
-			<_6 v="media index" />
-			<_6 v="base fog plane index" />
-			<_40 v="lines">
-				<_B v="type">
-					<Flag v="fog plane boundary edge" />
-					<Flag v="fog plane internal edge" />
-					<Flag v="fog zone floodfill" />
-					<Flag v="fog zone cluster centroid" />
-					<Flag v="fog zone cluster geometry" />
-					<Flag v="fog zone portal centroid" />
-					<Flag v="fog zone portal geometry" />
-				</_B>
-				<_5 v="code" />
-				<_5 v="pad thai" />
-				<_34 v="generated_pada37a" length="2" />
-				<_17 v="point 0" />
-				<_17 v="point 1" />
-				<_3B v="" />
-			</_40>
-			<_40 v="immersed cluster indices">
-				<_6 v="index" />
-				<_3B v="" />
-			</_40>
-			<_40 v="bounding fog plane indices">
-				<_6 v="index" />
-				<_3B v="" />
-			</_40>
-			<_40 v="collision fog plane indices">
-				<_6 v="index" />
-				<_3B v="" />
-			</_40>
-			<_3B v="" />
-		</_40>
-		<_3B v="" />
-	</_40>
-	<_34 v="generated_pad5788" length="4" />
 	<_38 v="render geometry">
 		<_D v="runtime flags">
 			<Flag v="processed" />
@@ -1793,7 +1689,7 @@
 		<_19 v="left" />
 		<_19 v="up" />
 		<_17 v="position" />
-		<_E v="override flags">
+		<_D v="override flags">
 			<Flag v="render only" />
 			<Flag v="does not block aoe damage" />
 			<Flag v="remove from dynamic shadow geometry" />
@@ -1810,8 +1706,9 @@
 			<Flag v="Exclude from broadphase calculation" />
 			<Flag v="can generate decorators" />
 			<Flag v="isHLOD" />
-		</_E>
-		<_E v="instance flags Mask">
+			<Flag v="Is a non-reactive Water Plane" />
+		</_D>
+		<_D v="instance flags Mask">
 			<Flag v="render only" />
 			<Flag v="does not block aoe damage" />
 			<Flag v="remove from dynamic shadow geometry" />
@@ -1828,12 +1725,15 @@
 			<Flag v="Exclude from broadphase calculation" />
 			<Flag v="can generate decorators" />
 			<Flag v="isHLOD" />
-		</_E>
+			<Flag v="Is a non-reactive Water Plane" />
+		</_D>
 		<_F v="physics override flags">
 			<Flag v="Allow decals" />
+			<Flag v="Is Trigger Volume" />
 		</_F>
 		<_F v="physics instance flags Mask">
 			<Flag v="Allow decals" />
+			<Flag v="Is Trigger Volume" />
 		</_F>
 		<_A v="override pathfinding policy">
 			<Flag v="cut-out" />
@@ -1895,8 +1795,16 @@
 		</_E>
 		<_34 v="generated_padce83" length="2" />
 		<_2 v="styleId" />
-		<_34 v="generated_pad1b38" length="4" />
 		<_7 v="styleTagOverride" />
+		<_A v="Trigger Volume Callback">
+			<Flag v="None" />
+		</_A>
+		<_34 v="generated_pad1b38" length="3" />
+		<_36 v="bullet collision layer override" />
+		<_2 v="bullet collision layer override" />
+		<_36 v="play collision layer override" />
+		<_2 v="play collision layer override" />
+		<_34 v="generated_pad0245" length="4" />
 		<_40 v="instance material overrides">
 			<_41 v="Original material ref" />
 			<_41 v="Override material ref" />
@@ -3988,7 +3896,7 @@
 	<_41 v="acoustics data" />
 	<_6 v="number of IO over the limit" />
 	<_6 v="needToClearShadowSubmissionsBuffers" />
-	<_34 v="generated_pad0ad3" length="4" />
+	<_34 v="generated_pad5788" length="4" />
 	<_7 v="gpuFloatingShadowSubmissionData" />
 	<_7 v="BSPRuntimeData" />
 	<_7 v="View GPU Submission Data" />
@@ -6149,6 +6057,6 @@
 		<Flag v="Coatings Are Finalized" />
 		<Flag v="Disable Gpu Submission" />
 	</_F>
-	<_34 v="generated_pad8b4a" length="7" />
+	<_34 v="generated_pad0ad3" length="7" />
 	<_3B v="" />
 </root>

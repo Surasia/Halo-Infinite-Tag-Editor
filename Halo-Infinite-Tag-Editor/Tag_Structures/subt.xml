@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -204,6 +204,8 @@
 					<Flag v="Instance Anchor" />
 					<Flag v="Nearest Player" />
 					<Flag v="Inherit from Parent" />
+					<Flag v="Light" />
+					<Flag v="Effect" />
 					<Flag v="None" />
 				</_B>
 				<_F v="Flags">
@@ -348,6 +350,8 @@
 					<Flag v="Instance Anchor" />
 					<Flag v="Nearest Player" />
 					<Flag v="Inherit from Parent" />
+					<Flag v="Light" />
+					<Flag v="Effect" />
 					<Flag v="None" />
 				</_B>
 				<_F v="Flags">
@@ -406,6 +410,8 @@
 					<Flag v="Instance Anchor" />
 					<Flag v="Nearest Player" />
 					<Flag v="Inherit from Parent" />
+					<Flag v="Light" />
+					<Flag v="Effect" />
 					<Flag v="None" />
 				</_B>
 				<_F v="Flags">
@@ -586,6 +592,44 @@
 						</_40>
 						<_3B v="" />
 					</_38>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_38 v="Rotation Curve">
@@ -669,6 +713,44 @@
 						</_40>
 						<_3B v="" />
 					</_38>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_38 v="Scale Curve">
@@ -702,6 +784,44 @@
 					</_38>
 					<_40 v="AnimatedCurveMetadata">
 						<_14 v="time" />
+						<_3B v="" />
+					</_40>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_40>
 					<_3B v="" />
@@ -739,6 +859,44 @@
 						<_14 v="time" />
 						<_3B v="" />
 					</_40>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_37 v="Translation Point" />
@@ -754,6 +912,8 @@
 						<Flag v="Instance Anchor" />
 						<Flag v="Nearest Player" />
 						<Flag v="Inherit from Parent" />
+						<Flag v="Light" />
+						<Flag v="Effect" />
 						<Flag v="None" />
 					</_B>
 					<_F v="Flags">
@@ -805,6 +965,8 @@
 						<Flag v="Instance Anchor" />
 						<Flag v="Nearest Player" />
 						<Flag v="Inherit from Parent" />
+						<Flag v="Light" />
+						<Flag v="Effect" />
 						<Flag v="None" />
 					</_B>
 					<_F v="Flags">
@@ -910,6 +1072,44 @@
 						<_14 v="time" />
 						<_3B v="" />
 					</_40>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_38 v="Animated Curve 3d">
@@ -993,6 +1193,44 @@
 						</_40>
 						<_3B v="" />
 					</_38>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_38 v="Depth of Field Curve">
@@ -1025,6 +1263,44 @@
 							<Flag v="Visible" />
 						</_F>
 						<_34 v="generated_pad5cd6" length="3" />
+						<_40 v="EditorCurveProperties">
+							<_40 v="wizard settings">
+								<_A v="range mode">
+									<Flag v="UseTrackLength" />
+									<Flag v="UseTrackLengthLooping" />
+									<Flag v="Range" />
+								</_A>
+								<_34 v="generated_pad4449" length="3" />
+								<_14 v="start frame" />
+								<_14 v="end frame" />
+								<_B v="function">
+									<Flag v="one" />
+									<Flag v="zero" />
+									<Flag v="cosine" />
+									<Flag v="cosine (variable period)" />
+									<Flag v="diagonal wave" />
+									<Flag v="diagonal wave (variable period)" />
+									<Flag v="slide" />
+									<Flag v="slide (variable period)" />
+									<Flag v="noise" />
+									<Flag v="jitter" />
+									<Flag v="wander" />
+									<Flag v="spark" />
+								</_B>
+								<_34 v="generated_pad2a68" length="2" />
+								<_14 v="keyframe frequency" />
+								<_14 v="function frequency" />
+								<_14 v="offset" />
+								<_14 v="min value" />
+								<_14 v="max value" />
+								<_3B v="" />
+							</_40>
+							<_40 v="Colors">
+								<_3E v="color" />
+								<_3B v="" />
+							</_40>
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_38>
 					<_38 v="FocusDistance">
@@ -1051,6 +1327,44 @@
 							<Flag v="Visible" />
 						</_F>
 						<_34 v="generated_pad5cd6" length="3" />
+						<_40 v="EditorCurveProperties">
+							<_40 v="wizard settings">
+								<_A v="range mode">
+									<Flag v="UseTrackLength" />
+									<Flag v="UseTrackLengthLooping" />
+									<Flag v="Range" />
+								</_A>
+								<_34 v="generated_pad4449" length="3" />
+								<_14 v="start frame" />
+								<_14 v="end frame" />
+								<_B v="function">
+									<Flag v="one" />
+									<Flag v="zero" />
+									<Flag v="cosine" />
+									<Flag v="cosine (variable period)" />
+									<Flag v="diagonal wave" />
+									<Flag v="diagonal wave (variable period)" />
+									<Flag v="slide" />
+									<Flag v="slide (variable period)" />
+									<Flag v="noise" />
+									<Flag v="jitter" />
+									<Flag v="wander" />
+									<Flag v="spark" />
+								</_B>
+								<_34 v="generated_pad2a68" length="2" />
+								<_14 v="keyframe frequency" />
+								<_14 v="function frequency" />
+								<_14 v="offset" />
+								<_14 v="min value" />
+								<_14 v="max value" />
+								<_3B v="" />
+							</_40>
+							<_40 v="Colors">
+								<_3E v="color" />
+								<_3B v="" />
+							</_40>
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_38>
 					<_38 v="FStop">
@@ -1077,6 +1391,44 @@
 							<Flag v="Visible" />
 						</_F>
 						<_34 v="generated_pad5cd6" length="3" />
+						<_40 v="EditorCurveProperties">
+							<_40 v="wizard settings">
+								<_A v="range mode">
+									<Flag v="UseTrackLength" />
+									<Flag v="UseTrackLengthLooping" />
+									<Flag v="Range" />
+								</_A>
+								<_34 v="generated_pad4449" length="3" />
+								<_14 v="start frame" />
+								<_14 v="end frame" />
+								<_B v="function">
+									<Flag v="one" />
+									<Flag v="zero" />
+									<Flag v="cosine" />
+									<Flag v="cosine (variable period)" />
+									<Flag v="diagonal wave" />
+									<Flag v="diagonal wave (variable period)" />
+									<Flag v="slide" />
+									<Flag v="slide (variable period)" />
+									<Flag v="noise" />
+									<Flag v="jitter" />
+									<Flag v="wander" />
+									<Flag v="spark" />
+								</_B>
+								<_34 v="generated_pad2a68" length="2" />
+								<_14 v="keyframe frequency" />
+								<_14 v="function frequency" />
+								<_14 v="offset" />
+								<_14 v="min value" />
+								<_14 v="max value" />
+								<_3B v="" />
+							</_40>
+							<_40 v="Colors">
+								<_3E v="color" />
+								<_3B v="" />
+							</_40>
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_38>
 					<_38 v="Gameplay FOV Blend">
@@ -1103,6 +1455,44 @@
 							<Flag v="Visible" />
 						</_F>
 						<_34 v="generated_pad5cd6" length="3" />
+						<_40 v="EditorCurveProperties">
+							<_40 v="wizard settings">
+								<_A v="range mode">
+									<Flag v="UseTrackLength" />
+									<Flag v="UseTrackLengthLooping" />
+									<Flag v="Range" />
+								</_A>
+								<_34 v="generated_pad4449" length="3" />
+								<_14 v="start frame" />
+								<_14 v="end frame" />
+								<_B v="function">
+									<Flag v="one" />
+									<Flag v="zero" />
+									<Flag v="cosine" />
+									<Flag v="cosine (variable period)" />
+									<Flag v="diagonal wave" />
+									<Flag v="diagonal wave (variable period)" />
+									<Flag v="slide" />
+									<Flag v="slide (variable period)" />
+									<Flag v="noise" />
+									<Flag v="jitter" />
+									<Flag v="wander" />
+									<Flag v="spark" />
+								</_B>
+								<_34 v="generated_pad2a68" length="2" />
+								<_14 v="keyframe frequency" />
+								<_14 v="function frequency" />
+								<_14 v="offset" />
+								<_14 v="min value" />
+								<_14 v="max value" />
+								<_3B v="" />
+							</_40>
+							<_40 v="Colors">
+								<_3E v="color" />
+								<_3B v="" />
+							</_40>
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_38>
 					<_3B v="" />
@@ -1138,6 +1528,44 @@
 					</_38>
 					<_40 v="AnimatedCurveMetadata">
 						<_14 v="time" />
+						<_3B v="" />
+					</_40>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_40>
 					<_3B v="" />
@@ -1238,6 +1666,44 @@
 				</_38>
 				<_40 v="AnimatedCurveMetadata">
 					<_14 v="time" />
+					<_3B v="" />
+				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_40>
 				<_3B v="" />
@@ -1379,6 +1845,44 @@
 						</_40>
 						<_3B v="" />
 					</_38>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_38 v="Rotation Curve">
@@ -1462,6 +1966,44 @@
 						</_40>
 						<_3B v="" />
 					</_38>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_38 v="Scale Curve">
@@ -1495,6 +2037,44 @@
 					</_38>
 					<_40 v="AnimatedCurveMetadata">
 						<_14 v="time" />
+						<_3B v="" />
+					</_40>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_40>
 					<_3B v="" />
@@ -1532,6 +2112,44 @@
 						<_14 v="time" />
 						<_3B v="" />
 					</_40>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_37 v="Translation Point" />
@@ -1547,6 +2165,8 @@
 						<Flag v="Instance Anchor" />
 						<Flag v="Nearest Player" />
 						<Flag v="Inherit from Parent" />
+						<Flag v="Light" />
+						<Flag v="Effect" />
 						<Flag v="None" />
 					</_B>
 					<_F v="Flags">
@@ -1598,6 +2218,8 @@
 						<Flag v="Instance Anchor" />
 						<Flag v="Nearest Player" />
 						<Flag v="Inherit from Parent" />
+						<Flag v="Light" />
+						<Flag v="Effect" />
 						<Flag v="None" />
 					</_B>
 					<_F v="Flags">
@@ -1704,6 +2326,44 @@
 						<_14 v="time" />
 						<_3B v="" />
 					</_40>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_38 v="Animated Curve 3d">
@@ -1787,6 +2447,44 @@
 						</_40>
 						<_3B v="" />
 					</_38>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_38 v="Depth of Field Curve">
@@ -1819,6 +2517,44 @@
 							<Flag v="Visible" />
 						</_F>
 						<_34 v="generated_pad5cd6" length="3" />
+						<_40 v="EditorCurveProperties">
+							<_40 v="wizard settings">
+								<_A v="range mode">
+									<Flag v="UseTrackLength" />
+									<Flag v="UseTrackLengthLooping" />
+									<Flag v="Range" />
+								</_A>
+								<_34 v="generated_pad4449" length="3" />
+								<_14 v="start frame" />
+								<_14 v="end frame" />
+								<_B v="function">
+									<Flag v="one" />
+									<Flag v="zero" />
+									<Flag v="cosine" />
+									<Flag v="cosine (variable period)" />
+									<Flag v="diagonal wave" />
+									<Flag v="diagonal wave (variable period)" />
+									<Flag v="slide" />
+									<Flag v="slide (variable period)" />
+									<Flag v="noise" />
+									<Flag v="jitter" />
+									<Flag v="wander" />
+									<Flag v="spark" />
+								</_B>
+								<_34 v="generated_pad2a68" length="2" />
+								<_14 v="keyframe frequency" />
+								<_14 v="function frequency" />
+								<_14 v="offset" />
+								<_14 v="min value" />
+								<_14 v="max value" />
+								<_3B v="" />
+							</_40>
+							<_40 v="Colors">
+								<_3E v="color" />
+								<_3B v="" />
+							</_40>
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_38>
 					<_38 v="FocusDistance">
@@ -1845,6 +2581,44 @@
 							<Flag v="Visible" />
 						</_F>
 						<_34 v="generated_pad5cd6" length="3" />
+						<_40 v="EditorCurveProperties">
+							<_40 v="wizard settings">
+								<_A v="range mode">
+									<Flag v="UseTrackLength" />
+									<Flag v="UseTrackLengthLooping" />
+									<Flag v="Range" />
+								</_A>
+								<_34 v="generated_pad4449" length="3" />
+								<_14 v="start frame" />
+								<_14 v="end frame" />
+								<_B v="function">
+									<Flag v="one" />
+									<Flag v="zero" />
+									<Flag v="cosine" />
+									<Flag v="cosine (variable period)" />
+									<Flag v="diagonal wave" />
+									<Flag v="diagonal wave (variable period)" />
+									<Flag v="slide" />
+									<Flag v="slide (variable period)" />
+									<Flag v="noise" />
+									<Flag v="jitter" />
+									<Flag v="wander" />
+									<Flag v="spark" />
+								</_B>
+								<_34 v="generated_pad2a68" length="2" />
+								<_14 v="keyframe frequency" />
+								<_14 v="function frequency" />
+								<_14 v="offset" />
+								<_14 v="min value" />
+								<_14 v="max value" />
+								<_3B v="" />
+							</_40>
+							<_40 v="Colors">
+								<_3E v="color" />
+								<_3B v="" />
+							</_40>
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_38>
 					<_38 v="FStop">
@@ -1871,6 +2645,44 @@
 							<Flag v="Visible" />
 						</_F>
 						<_34 v="generated_pad5cd6" length="3" />
+						<_40 v="EditorCurveProperties">
+							<_40 v="wizard settings">
+								<_A v="range mode">
+									<Flag v="UseTrackLength" />
+									<Flag v="UseTrackLengthLooping" />
+									<Flag v="Range" />
+								</_A>
+								<_34 v="generated_pad4449" length="3" />
+								<_14 v="start frame" />
+								<_14 v="end frame" />
+								<_B v="function">
+									<Flag v="one" />
+									<Flag v="zero" />
+									<Flag v="cosine" />
+									<Flag v="cosine (variable period)" />
+									<Flag v="diagonal wave" />
+									<Flag v="diagonal wave (variable period)" />
+									<Flag v="slide" />
+									<Flag v="slide (variable period)" />
+									<Flag v="noise" />
+									<Flag v="jitter" />
+									<Flag v="wander" />
+									<Flag v="spark" />
+								</_B>
+								<_34 v="generated_pad2a68" length="2" />
+								<_14 v="keyframe frequency" />
+								<_14 v="function frequency" />
+								<_14 v="offset" />
+								<_14 v="min value" />
+								<_14 v="max value" />
+								<_3B v="" />
+							</_40>
+							<_40 v="Colors">
+								<_3E v="color" />
+								<_3B v="" />
+							</_40>
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_38>
 					<_38 v="Gameplay FOV Blend">
@@ -1897,6 +2709,44 @@
 							<Flag v="Visible" />
 						</_F>
 						<_34 v="generated_pad5cd6" length="3" />
+						<_40 v="EditorCurveProperties">
+							<_40 v="wizard settings">
+								<_A v="range mode">
+									<Flag v="UseTrackLength" />
+									<Flag v="UseTrackLengthLooping" />
+									<Flag v="Range" />
+								</_A>
+								<_34 v="generated_pad4449" length="3" />
+								<_14 v="start frame" />
+								<_14 v="end frame" />
+								<_B v="function">
+									<Flag v="one" />
+									<Flag v="zero" />
+									<Flag v="cosine" />
+									<Flag v="cosine (variable period)" />
+									<Flag v="diagonal wave" />
+									<Flag v="diagonal wave (variable period)" />
+									<Flag v="slide" />
+									<Flag v="slide (variable period)" />
+									<Flag v="noise" />
+									<Flag v="jitter" />
+									<Flag v="wander" />
+									<Flag v="spark" />
+								</_B>
+								<_34 v="generated_pad2a68" length="2" />
+								<_14 v="keyframe frequency" />
+								<_14 v="function frequency" />
+								<_14 v="offset" />
+								<_14 v="min value" />
+								<_14 v="max value" />
+								<_3B v="" />
+							</_40>
+							<_40 v="Colors">
+								<_3E v="color" />
+								<_3B v="" />
+							</_40>
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_38>
 					<_3B v="" />
@@ -1932,6 +2782,44 @@
 					</_38>
 					<_40 v="AnimatedCurveMetadata">
 						<_14 v="time" />
+						<_3B v="" />
+					</_40>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_40>
 					<_3B v="" />
@@ -1982,6 +2870,44 @@
 					<_14 v="time" />
 					<_3B v="" />
 				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_40>
 				<_3B v="" />
 			</_38>
 			<_3B v="" />
@@ -2024,6 +2950,44 @@
 				</_38>
 				<_40 v="AnimatedCurveMetadata">
 					<_14 v="time" />
+					<_3B v="" />
+				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_40>
 				<_3B v="" />
@@ -2075,6 +3039,8 @@
 					<Flag v="Instance Anchor" />
 					<Flag v="Nearest Player" />
 					<Flag v="Inherit from Parent" />
+					<Flag v="Light" />
+					<Flag v="Effect" />
 					<Flag v="None" />
 				</_B>
 				<_F v="Flags">
@@ -2184,6 +3150,8 @@
 					<Flag v="Instance Anchor" />
 					<Flag v="Nearest Player" />
 					<Flag v="Inherit from Parent" />
+					<Flag v="Light" />
+					<Flag v="Effect" />
 					<Flag v="None" />
 				</_B>
 				<_F v="Flags">
@@ -2235,6 +3203,8 @@
 					<Flag v="Instance Anchor" />
 					<Flag v="Nearest Player" />
 					<Flag v="Inherit from Parent" />
+					<Flag v="Light" />
+					<Flag v="Effect" />
 					<Flag v="None" />
 				</_B>
 				<_F v="Flags">
@@ -2384,6 +3354,44 @@
 						</_40>
 						<_3B v="" />
 					</_38>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_38 v="Rotation Curve">
@@ -2467,6 +3475,44 @@
 						</_40>
 						<_3B v="" />
 					</_38>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_38 v="Scale Curve">
@@ -2500,6 +3546,44 @@
 					</_38>
 					<_40 v="AnimatedCurveMetadata">
 						<_14 v="time" />
+						<_3B v="" />
+					</_40>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_40>
 					<_3B v="" />
@@ -2537,6 +3621,44 @@
 						<_14 v="time" />
 						<_3B v="" />
 					</_40>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_37 v="Translation Point" />
@@ -2552,6 +3674,8 @@
 						<Flag v="Instance Anchor" />
 						<Flag v="Nearest Player" />
 						<Flag v="Inherit from Parent" />
+						<Flag v="Light" />
+						<Flag v="Effect" />
 						<Flag v="None" />
 					</_B>
 					<_F v="Flags">
@@ -2603,6 +3727,8 @@
 						<Flag v="Instance Anchor" />
 						<Flag v="Nearest Player" />
 						<Flag v="Inherit from Parent" />
+						<Flag v="Light" />
+						<Flag v="Effect" />
 						<Flag v="None" />
 					</_B>
 					<_F v="Flags">
@@ -2659,6 +3785,8 @@
 					<Flag v="Instance Anchor" />
 					<Flag v="Nearest Player" />
 					<Flag v="Inherit from Parent" />
+					<Flag v="Light" />
+					<Flag v="Effect" />
 					<Flag v="None" />
 				</_B>
 				<_F v="Flags">
@@ -2716,6 +3844,8 @@
 					<Flag v="Instance Anchor" />
 					<Flag v="Nearest Player" />
 					<Flag v="Inherit from Parent" />
+					<Flag v="Light" />
+					<Flag v="Effect" />
 					<Flag v="None" />
 				</_B>
 				<_F v="Flags">
@@ -2791,6 +3921,44 @@
 						<Flag v="Visible" />
 					</_F>
 					<_34 v="generated_pad5cd6" length="3" />
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_38 v="FocusDistance">
@@ -2817,6 +3985,44 @@
 						<Flag v="Visible" />
 					</_F>
 					<_34 v="generated_pad5cd6" length="3" />
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_38 v="FStop">
@@ -2843,6 +4049,44 @@
 						<Flag v="Visible" />
 					</_F>
 					<_34 v="generated_pad5cd6" length="3" />
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_38 v="Gameplay FOV Blend">
@@ -2869,6 +4113,44 @@
 						<Flag v="Visible" />
 					</_F>
 					<_34 v="generated_pad5cd6" length="3" />
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_3B v="" />
@@ -2925,6 +4207,44 @@
 					<_14 v="time" />
 					<_3B v="" />
 				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_40>
 				<_3B v="" />
 			</_38>
 			<_38 v="script_curve_value_2">
@@ -2958,6 +4278,44 @@
 				</_38>
 				<_40 v="AnimatedCurveMetadata">
 					<_14 v="time" />
+					<_3B v="" />
+				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_40>
 				<_3B v="" />
@@ -2995,6 +4353,44 @@
 					<_14 v="time" />
 					<_3B v="" />
 				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_40>
 				<_3B v="" />
 			</_38>
 			<_38 v="script_curve_value_4">
@@ -3028,6 +4424,44 @@
 				</_38>
 				<_40 v="AnimatedCurveMetadata">
 					<_14 v="time" />
+					<_3B v="" />
+				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_40>
 				<_3B v="" />
@@ -3087,6 +4521,44 @@
 					<_14 v="time" />
 					<_3B v="" />
 				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_40>
 				<_3B v="" />
 			</_38>
 			<_38 v="Green Curve">
@@ -3120,6 +4592,44 @@
 				</_38>
 				<_40 v="AnimatedCurveMetadata">
 					<_14 v="time" />
+					<_3B v="" />
+				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_40>
 				<_3B v="" />
@@ -3157,6 +4667,44 @@
 					<_14 v="time" />
 					<_3B v="" />
 				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_40>
 				<_3B v="" />
 			</_38>
 			<_38 v="Alpha Curve">
@@ -3192,6 +4740,44 @@
 					<_14 v="time" />
 					<_3B v="" />
 				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_40>
 				<_3B v="" />
 			</_38>
 			<_3B v="" />
@@ -3209,6 +4795,79 @@
 					<_3B v="" />
 				</_40>
 				<_6 v="guid" />
+				<_3B v="" />
+			</_38>
+			<_38 v="Fade Curve">
+				<_2 v="Name" />
+				<_F v="Flags">
+					<Flag v="Enabled" />
+					<Flag v="Visible" />
+				</_F>
+				<_34 v="generated_pad94fd" length="3" />
+				<_38 v="Value Curve">
+					<_40 v="control points">
+						<_14 v="value" />
+						<_14 v="tangent in" />
+						<_14 v="tangent out" />
+						<_14 v="curviness" />
+						<_A v="segment type">
+							<Flag v="Spline" />
+							<Flag v="Linear" />
+							<Flag v="Stepped" />
+							<Flag v="SteppedNext" />
+						</_A>
+						<_A v="tangent mode">
+							<Flag v="AutoStraight" />
+							<Flag v="UserStraight" />
+							<Flag v="UserBroken" />
+						</_A>
+						<_34 v="generated_pad7103" length="2" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_38>
+				<_40 v="AnimatedCurveMetadata">
+					<_14 v="time" />
+					<_3B v="" />
+				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_40>
 				<_3B v="" />
 			</_38>
 			<_3B v="" />
@@ -3298,6 +4957,44 @@
 						<_14 v="time" />
 						<_3B v="" />
 					</_40>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_38 v="Animated Curve 3d">
@@ -3381,6 +5078,44 @@
 						</_40>
 						<_3B v="" />
 					</_38>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_38 v="Depth of Field Curve">
@@ -3413,6 +5148,44 @@
 							<Flag v="Visible" />
 						</_F>
 						<_34 v="generated_pad5cd6" length="3" />
+						<_40 v="EditorCurveProperties">
+							<_40 v="wizard settings">
+								<_A v="range mode">
+									<Flag v="UseTrackLength" />
+									<Flag v="UseTrackLengthLooping" />
+									<Flag v="Range" />
+								</_A>
+								<_34 v="generated_pad4449" length="3" />
+								<_14 v="start frame" />
+								<_14 v="end frame" />
+								<_B v="function">
+									<Flag v="one" />
+									<Flag v="zero" />
+									<Flag v="cosine" />
+									<Flag v="cosine (variable period)" />
+									<Flag v="diagonal wave" />
+									<Flag v="diagonal wave (variable period)" />
+									<Flag v="slide" />
+									<Flag v="slide (variable period)" />
+									<Flag v="noise" />
+									<Flag v="jitter" />
+									<Flag v="wander" />
+									<Flag v="spark" />
+								</_B>
+								<_34 v="generated_pad2a68" length="2" />
+								<_14 v="keyframe frequency" />
+								<_14 v="function frequency" />
+								<_14 v="offset" />
+								<_14 v="min value" />
+								<_14 v="max value" />
+								<_3B v="" />
+							</_40>
+							<_40 v="Colors">
+								<_3E v="color" />
+								<_3B v="" />
+							</_40>
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_38>
 					<_38 v="FocusDistance">
@@ -3439,6 +5212,44 @@
 							<Flag v="Visible" />
 						</_F>
 						<_34 v="generated_pad5cd6" length="3" />
+						<_40 v="EditorCurveProperties">
+							<_40 v="wizard settings">
+								<_A v="range mode">
+									<Flag v="UseTrackLength" />
+									<Flag v="UseTrackLengthLooping" />
+									<Flag v="Range" />
+								</_A>
+								<_34 v="generated_pad4449" length="3" />
+								<_14 v="start frame" />
+								<_14 v="end frame" />
+								<_B v="function">
+									<Flag v="one" />
+									<Flag v="zero" />
+									<Flag v="cosine" />
+									<Flag v="cosine (variable period)" />
+									<Flag v="diagonal wave" />
+									<Flag v="diagonal wave (variable period)" />
+									<Flag v="slide" />
+									<Flag v="slide (variable period)" />
+									<Flag v="noise" />
+									<Flag v="jitter" />
+									<Flag v="wander" />
+									<Flag v="spark" />
+								</_B>
+								<_34 v="generated_pad2a68" length="2" />
+								<_14 v="keyframe frequency" />
+								<_14 v="function frequency" />
+								<_14 v="offset" />
+								<_14 v="min value" />
+								<_14 v="max value" />
+								<_3B v="" />
+							</_40>
+							<_40 v="Colors">
+								<_3E v="color" />
+								<_3B v="" />
+							</_40>
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_38>
 					<_38 v="FStop">
@@ -3465,6 +5276,44 @@
 							<Flag v="Visible" />
 						</_F>
 						<_34 v="generated_pad5cd6" length="3" />
+						<_40 v="EditorCurveProperties">
+							<_40 v="wizard settings">
+								<_A v="range mode">
+									<Flag v="UseTrackLength" />
+									<Flag v="UseTrackLengthLooping" />
+									<Flag v="Range" />
+								</_A>
+								<_34 v="generated_pad4449" length="3" />
+								<_14 v="start frame" />
+								<_14 v="end frame" />
+								<_B v="function">
+									<Flag v="one" />
+									<Flag v="zero" />
+									<Flag v="cosine" />
+									<Flag v="cosine (variable period)" />
+									<Flag v="diagonal wave" />
+									<Flag v="diagonal wave (variable period)" />
+									<Flag v="slide" />
+									<Flag v="slide (variable period)" />
+									<Flag v="noise" />
+									<Flag v="jitter" />
+									<Flag v="wander" />
+									<Flag v="spark" />
+								</_B>
+								<_34 v="generated_pad2a68" length="2" />
+								<_14 v="keyframe frequency" />
+								<_14 v="function frequency" />
+								<_14 v="offset" />
+								<_14 v="min value" />
+								<_14 v="max value" />
+								<_3B v="" />
+							</_40>
+							<_40 v="Colors">
+								<_3E v="color" />
+								<_3B v="" />
+							</_40>
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_38>
 					<_38 v="Gameplay FOV Blend">
@@ -3491,6 +5340,44 @@
 							<Flag v="Visible" />
 						</_F>
 						<_34 v="generated_pad5cd6" length="3" />
+						<_40 v="EditorCurveProperties">
+							<_40 v="wizard settings">
+								<_A v="range mode">
+									<Flag v="UseTrackLength" />
+									<Flag v="UseTrackLengthLooping" />
+									<Flag v="Range" />
+								</_A>
+								<_34 v="generated_pad4449" length="3" />
+								<_14 v="start frame" />
+								<_14 v="end frame" />
+								<_B v="function">
+									<Flag v="one" />
+									<Flag v="zero" />
+									<Flag v="cosine" />
+									<Flag v="cosine (variable period)" />
+									<Flag v="diagonal wave" />
+									<Flag v="diagonal wave (variable period)" />
+									<Flag v="slide" />
+									<Flag v="slide (variable period)" />
+									<Flag v="noise" />
+									<Flag v="jitter" />
+									<Flag v="wander" />
+									<Flag v="spark" />
+								</_B>
+								<_34 v="generated_pad2a68" length="2" />
+								<_14 v="keyframe frequency" />
+								<_14 v="function frequency" />
+								<_14 v="offset" />
+								<_14 v="min value" />
+								<_14 v="max value" />
+								<_3B v="" />
+							</_40>
+							<_40 v="Colors">
+								<_3E v="color" />
+								<_3B v="" />
+							</_40>
+							<_3B v="" />
+						</_40>
 						<_3B v="" />
 					</_38>
 					<_3B v="" />
@@ -3528,6 +5415,44 @@
 						<_14 v="time" />
 						<_3B v="" />
 					</_40>
+					<_40 v="EditorCurveProperties">
+						<_40 v="wizard settings">
+							<_A v="range mode">
+								<Flag v="UseTrackLength" />
+								<Flag v="UseTrackLengthLooping" />
+								<Flag v="Range" />
+							</_A>
+							<_34 v="generated_pad4449" length="3" />
+							<_14 v="start frame" />
+							<_14 v="end frame" />
+							<_B v="function">
+								<Flag v="one" />
+								<Flag v="zero" />
+								<Flag v="cosine" />
+								<Flag v="cosine (variable period)" />
+								<Flag v="diagonal wave" />
+								<Flag v="diagonal wave (variable period)" />
+								<Flag v="slide" />
+								<Flag v="slide (variable period)" />
+								<Flag v="noise" />
+								<Flag v="jitter" />
+								<Flag v="wander" />
+								<Flag v="spark" />
+							</_B>
+							<_34 v="generated_pad2a68" length="2" />
+							<_14 v="keyframe frequency" />
+							<_14 v="function frequency" />
+							<_14 v="offset" />
+							<_14 v="min value" />
+							<_14 v="max value" />
+							<_3B v="" />
+						</_40>
+						<_40 v="Colors">
+							<_3E v="color" />
+							<_3B v="" />
+						</_40>
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_38>
 				<_3B v="" />
@@ -3563,6 +5488,44 @@
 				</_38>
 				<_40 v="AnimatedCurveMetadata">
 					<_14 v="time" />
+					<_3B v="" />
+				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_40>
 				<_3B v="" />
@@ -3603,6 +5566,44 @@
 					<_14 v="time" />
 					<_3B v="" />
 				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_40>
 				<_3B v="" />
 			</_38>
 			<_38 v="Blending Curve">
@@ -3638,17 +5639,343 @@
 					<_14 v="time" />
 					<_3B v="" />
 				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_40>
 				<_3B v="" />
 			</_38>
 			<_3B v="" />
 		</_40>
 		<_40 v="Rumble SubActions">
 			<_41 v="Rumble Definition" />
-			<_37 v="Basic" />
-			<_14 v="Low Frequency Level" />
-			<_14 v="High Frequency Level" />
-			<_14 v="Primary Trigger Level" />
-			<_14 v="Secondary Trigger Level" />
+			<_37 v="Rumble Curves" />
+			<_38 v="Low Frequency Curve">
+				<_2 v="Name" />
+				<_F v="Flags">
+					<Flag v="Enabled" />
+					<Flag v="Visible" />
+				</_F>
+				<_34 v="generated_pad94fd" length="3" />
+				<_38 v="Value Curve">
+					<_40 v="control points">
+						<_14 v="value" />
+						<_14 v="tangent in" />
+						<_14 v="tangent out" />
+						<_14 v="curviness" />
+						<_A v="segment type">
+							<Flag v="Spline" />
+							<Flag v="Linear" />
+							<Flag v="Stepped" />
+							<Flag v="SteppedNext" />
+						</_A>
+						<_A v="tangent mode">
+							<Flag v="AutoStraight" />
+							<Flag v="UserStraight" />
+							<Flag v="UserBroken" />
+						</_A>
+						<_34 v="generated_pad7103" length="2" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_38>
+				<_40 v="AnimatedCurveMetadata">
+					<_14 v="time" />
+					<_3B v="" />
+				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_40>
+				<_3B v="" />
+			</_38>
+			<_38 v="High Frequency Curve">
+				<_2 v="Name" />
+				<_F v="Flags">
+					<Flag v="Enabled" />
+					<Flag v="Visible" />
+				</_F>
+				<_34 v="generated_pad94fd" length="3" />
+				<_38 v="Value Curve">
+					<_40 v="control points">
+						<_14 v="value" />
+						<_14 v="tangent in" />
+						<_14 v="tangent out" />
+						<_14 v="curviness" />
+						<_A v="segment type">
+							<Flag v="Spline" />
+							<Flag v="Linear" />
+							<Flag v="Stepped" />
+							<Flag v="SteppedNext" />
+						</_A>
+						<_A v="tangent mode">
+							<Flag v="AutoStraight" />
+							<Flag v="UserStraight" />
+							<Flag v="UserBroken" />
+						</_A>
+						<_34 v="generated_pad7103" length="2" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_38>
+				<_40 v="AnimatedCurveMetadata">
+					<_14 v="time" />
+					<_3B v="" />
+				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_40>
+				<_3B v="" />
+			</_38>
+			<_38 v="Primary Trigger Curve">
+				<_2 v="Name" />
+				<_F v="Flags">
+					<Flag v="Enabled" />
+					<Flag v="Visible" />
+				</_F>
+				<_34 v="generated_pad94fd" length="3" />
+				<_38 v="Value Curve">
+					<_40 v="control points">
+						<_14 v="value" />
+						<_14 v="tangent in" />
+						<_14 v="tangent out" />
+						<_14 v="curviness" />
+						<_A v="segment type">
+							<Flag v="Spline" />
+							<Flag v="Linear" />
+							<Flag v="Stepped" />
+							<Flag v="SteppedNext" />
+						</_A>
+						<_A v="tangent mode">
+							<Flag v="AutoStraight" />
+							<Flag v="UserStraight" />
+							<Flag v="UserBroken" />
+						</_A>
+						<_34 v="generated_pad7103" length="2" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_38>
+				<_40 v="AnimatedCurveMetadata">
+					<_14 v="time" />
+					<_3B v="" />
+				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_40>
+				<_3B v="" />
+			</_38>
+			<_38 v="Secondary Trigger Curve">
+				<_2 v="Name" />
+				<_F v="Flags">
+					<Flag v="Enabled" />
+					<Flag v="Visible" />
+				</_F>
+				<_34 v="generated_pad94fd" length="3" />
+				<_38 v="Value Curve">
+					<_40 v="control points">
+						<_14 v="value" />
+						<_14 v="tangent in" />
+						<_14 v="tangent out" />
+						<_14 v="curviness" />
+						<_A v="segment type">
+							<Flag v="Spline" />
+							<Flag v="Linear" />
+							<Flag v="Stepped" />
+							<Flag v="SteppedNext" />
+						</_A>
+						<_A v="tangent mode">
+							<Flag v="AutoStraight" />
+							<Flag v="UserStraight" />
+							<Flag v="UserBroken" />
+						</_A>
+						<_34 v="generated_pad7103" length="2" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_38>
+				<_40 v="AnimatedCurveMetadata">
+					<_14 v="time" />
+					<_3B v="" />
+				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
+					<_3B v="" />
+				</_40>
+				<_3B v="" />
+			</_38>
 			<_37 v="" />
 			<_3B v="" />
 		</_40>
@@ -3684,6 +6011,44 @@
 				</_38>
 				<_40 v="AnimatedCurveMetadata">
 					<_14 v="time" />
+					<_3B v="" />
+				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_40>
 				<_3B v="" />

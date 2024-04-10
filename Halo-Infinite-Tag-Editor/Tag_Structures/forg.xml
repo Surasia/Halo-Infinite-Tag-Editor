@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -17,6 +17,10 @@
 	<_40 v="Forge Colors Lighting">
 		<_2 v="name" />
 		<_1F v="color" />
+		<_3B v="" />
+	</_40>
+	<_40 v="Global Swatch Group Allow List">
+		<_2 v="Global Swatch Group Name" />
 		<_3B v="" />
 	</_40>
 	<_36 v="Magnets" />
@@ -125,11 +129,6 @@
 		<_2 v="name" />
 		<_3B v="" />
 	</_40>
-	<_40 v="forge patchy fog bitmaps">
-		<_41 v="bitmap" />
-		<_2 v="name" />
-		<_3B v="" />
-	</_40>
 	<_40 v="forge cloud bitmaps">
 		<_41 v="bitmap" />
 		<_2 v="name" />
@@ -142,6 +141,11 @@
 	</_40>
 	<_40 v="forge light cones">
 		<_41 v="light cone" />
+		<_2 v="name" />
+		<_3B v="" />
+	</_40>
+	<_40 v="forge light groups">
+		<_41 v="light group" />
 		<_2 v="name" />
 		<_3B v="" />
 	</_40>
@@ -160,7 +164,6 @@
 		<_14 v="translation snap amount (world units)" />
 		<_3B v="" />
 	</_40>
-	<_41 v="forge required resources" />
 	<_41 v="rotation handle shader" />
 	<_41 v="magnet marker shader" />
 	<_41 v="path preview shader" />
@@ -177,6 +180,7 @@
 			<Flag v="OnlyTraitZones" />
 			<Flag v="OnlyFlagStands" />
 			<Flag v="OnlyCinematicObjects" />
+			<Flag v="AllObjectsExcludingKits" />
 		</_A>
 		<_F v="side effects of label">
 			<Flag v="Only spawn if game mode requires" />
@@ -235,19 +239,27 @@
 		<_3B v="" />
 	</_40>
 	<_34 v="generated_padd2ca" length="4" />
-	<_7 v="m_rotationHandlePipelineState" />
-	<_7 v="m_pathPreviewPipelineState" />
-	<_7 v="m_defaultBoundaryPipelineState" />
-	<_7 v="m_handleWithDepthTestState" />
-	<_7 v="m_aiNavMeshPipelineState" />
-	<_7 v="m_aiPathPipelineState" />
+	<_7 v="rotationHandlePipelineState" />
+	<_7 v="pathPreviewPipelineState" />
+	<_7 v="defaultBoundaryPipelineState" />
+	<_7 v="handleWithDepthTestState" />
+	<_7 v="aiNavMeshPipelineState" />
+	<_7 v="aiPathPipelineState" />
 	<_41 v="Forge Object Manifest" />
 	<_41 v="Forge Named Tag Lists" />
 	<_40 v="Forge NodeGraph Schema">
 		<_42 v="graphSchema" />
 		<_3B v="" />
 	</_40>
+	<_40 v="Forge NodeGraph Schema Tags">
+		<_41 v="Json Source File Tag" />
+		<_3B v="" />
+	</_40>
 	<_41 v="Forge Script Brain Tag Reference" />
+	<_40 v="Forge Nodes To Exclude From Mode Script Brain">
+		<_1 v="Node Name" />
+		<_3B v="" />
+	</_40>
 	<_41 v="Forge Bot Navigation Marker Tag Reference" />
 	<_41 v="Forge Sound Tag Reference" />
 	<_38 v="Forge Ambient Sounds">
@@ -295,5 +307,10 @@
 	<_41 v="Forge Sound Response Sounds" />
 	<_41 v="Forge Nav Mesh Seed Tag Reference" />
 	<_41 v="Forge Baking Overlay screen reference" />
+	<_41 v="forge required resources" />
+	<_41 v="Forgeable Character definitions" />
+	<_41 v="Forge Dimensional Widgets Parameters Tag Reference" />
+	<_34 v="generated_pad1f7f" length="4" />
+	<_7 v="m_labelCache" />
 	<_3B v="" />
 </root>

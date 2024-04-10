@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -56,18 +56,6 @@
 	<_41 v="Subsurface Scatter Profile tag" />
 	<_41 v="Empty Swatch Tag" />
 	<_41 v="Hair Profile tag" />
-	<_40 v="psoFeatureTags">
-		<_41 v="psoDictionaryReference" />
-		<_A v="contentBucket">
-			<Flag v="Main Menu" />
-			<Flag v="Multiplayer" />
-			<Flag v="Campaign" />
-			<Flag v="Forge" />
-			<Flag v="Shared" />
-			<Flag v="Misc" />
-		</_A>
-		<_34 v="generated_pade9b2" length="3" />
-		<_3B v="" />
-	</_40>
+	<_41 v="psoDictionaryReference" />
 	<_3B v="" />
 </root>

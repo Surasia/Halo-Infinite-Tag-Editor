@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -13,9 +13,9 @@
 	<_36 v="Death Program Selection" />
 	<_37 v="" />
 	<_41 v="parent" />
-	<_40 v="special type">
-		<_C v="special type">
-			<Flag v="none" />
+	<_40 v="Cause of Death">
+		<_C v="Cause of Death">
+			<Flag v="default" />
 			<Flag v="headshot" />
 			<Flag v="melee" />
 			<Flag v="collision" />
@@ -46,6 +46,14 @@
 			</_40>
 			<_40 v="velocity">
 				<_14 v="minimum velocity" />
+				<_A v="locomotion direction">
+					<Flag v="No specific direction" />
+					<Flag v="Front" />
+					<Flag v="Left" />
+					<Flag v="Right" />
+					<Flag v="Back" />
+				</_A>
+				<_34 v="generated_pad2cfd" length="3" />
 				<_C v="death program">
 					<Flag v="animate then ragdoll" />
 					<Flag v="default ragdoll program" />
@@ -68,8 +76,9 @@
 					<Flag v="motor driven" />
 					<Flag v="use death ping" />
 					<Flag v="keyframe parentless rigidbodies" />
+					<Flag v="do not ragdoll, only animate" />
 				</_F>
-				<_34 v="generated_pad2cfd" length="3" />
+				<_34 v="generated_pad131c" length="3" />
 				<_37 v="Animate-then-ragdoll" />
 				<_8 v="ragdoll animation bypass angle" />
 				<_35 v="Cosine Angle" length="4" />

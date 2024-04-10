@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -36,10 +36,11 @@
 		<_41 v="Inspect Customization" />
 		<_41 v="Inspect Player Customization" />
 		<_41 v="PGCR" />
+		<_41 v="MainMenu" />
 		<_41 v="RTT Forward Fast Lighting Presets" />
 		<_40 v="RTT Camera Scenes">
 			<_2 v="UI Display String" />
-			<_2 v="UI Description�String" />
+			<_2 v="UI Description String" />
 			<_6 v="CMS Customization Item Type" />
 			<_B v="CMS Customization Core Type">
 				<Flag v="Unknown" />

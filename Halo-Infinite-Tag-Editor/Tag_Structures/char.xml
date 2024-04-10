@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -13,6 +13,7 @@
 		<Flag v="Flag1" />
 		<Flag v="Disable Velocity/Throttle Alignment" />
 		<Flag v="Use Boss Damage Audio" />
+		<Flag v="Is A Boss" />
 	</_D>
 	<_41 v="parent character" />
 	<_41 v="unit" />
@@ -92,7 +93,6 @@
 			<Flag v="shield prevents assassination" />
 			<Flag v="cannot be assassinated" />
 			<Flag v="infinite ammo" />
-			<Flag v="Use Aim At Feet Fallback" />
 			<Flag v="Effectiveness Token Override" />
 		</_D>
 		<_B v="type">
@@ -1702,6 +1702,20 @@
 		<_26 v="Hostility Range" />
 		<_3B v="" />
 	</_40>
+	<_40 v="grenade overrides">
+		<_A v="grenade type">
+			<Flag v="none" />
+			<Flag v="fragmentation grenade" />
+			<Flag v="plasma grenade" />
+			<Flag v="lightning grenade" />
+			<Flag v="spike grenade" />
+			<Flag v="sapper grenade" />
+			<Flag v="stasis grenade" />
+		</_A>
+		<_34 v="generated_padf18b" length="3" />
+		<_41 v="override grenade projectile" />
+		<_3B v="" />
+	</_40>
 	<_40 v="grenades properties">
 		<_D v="grenades flags">
 			<Flag v="do not throw while bunkering" />
@@ -2626,6 +2640,5 @@
 		</_40>
 		<_3B v="" />
 	</_40>
-	<_34 v="generated_pad539d" length="4" />
 	<_3B v="" />
 </root>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -39,5 +39,14 @@
 	<_F v="Enable Shadows For Uncached Lights">
 		<Flag v="Enabled" />
 	</_F>
+	<_14 v="RT Ray Push Off Modifier" />
+	<_14 v="RT Hybrid Shadow 2x2 Tile Sigma Modifier" />
+	<_14 v="RT Hybrid Shadow 4x4 Tile Sigma Modifier" />
+	<_14 v="RT Denoiser History Damper Weight Modifier" />
+	<_5 v="RT Alpha Geo Iterations Modifier" />
+	<_34 v="generated_pad2aac" length="2" />
+	<_14 v="RT Alpha Geo Discard Distance Modifier" />
+	<_14 v="RT Shadow Ray Thickness Modifier" />
+	<_34 v="generated_pad448d" length="4" />
 	<_3B v="" />
 </root>

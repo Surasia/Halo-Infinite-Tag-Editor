@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -143,6 +143,12 @@
 		</_38>
 		<_3B v="" />
 	</_38>
+	<_A v="damage cone hit resolution behavior">
+		<Flag v="outer cone only" />
+		<Flag v="approximate outer cone" />
+		<Flag v="test both cones" />
+	</_A>
+	<_34 v="generated_pad17b5" length="3" />
 	<_8 v="dmg inner cone angle" />
 	<_38 v="blah">
 		<_8 v="dmg outer cone angle" />
@@ -190,6 +196,7 @@
 		<_2 v="custom label" />
 		<_3B v="" />
 	</_40>
+	<_14 v="ping reaction delay" />
 	<_14 v="AI stun radius" />
 	<_25 v="AI stun bounds" />
 	<_B v="aiNoiseVolume">

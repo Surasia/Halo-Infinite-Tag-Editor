@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -112,6 +112,7 @@
 				<Flag v="override CVW lighting" />
 				<Flag v="override CVW lighting - disable CVW for this placement" />
 				<Flag v="client only no relevancy" />
+				<Flag v="non-networked collision" />
 			</_D>
 			<_17 v="position" />
 			<_1C v="rotation" />
@@ -547,6 +548,7 @@
 				<Flag v="override CVW lighting" />
 				<Flag v="override CVW lighting - disable CVW for this placement" />
 				<Flag v="client only no relevancy" />
+				<Flag v="non-networked collision" />
 			</_D>
 			<_17 v="position" />
 			<_1C v="rotation" />
@@ -979,6 +981,7 @@
 				<Flag v="override CVW lighting" />
 				<Flag v="override CVW lighting - disable CVW for this placement" />
 				<Flag v="client only no relevancy" />
+				<Flag v="non-networked collision" />
 			</_D>
 			<_17 v="position" />
 			<_1C v="rotation" />
@@ -1421,6 +1424,7 @@
 				<Flag v="override CVW lighting" />
 				<Flag v="override CVW lighting - disable CVW for this placement" />
 				<Flag v="client only no relevancy" />
+				<Flag v="non-networked collision" />
 			</_D>
 			<_17 v="position" />
 			<_1C v="rotation" />
@@ -1836,6 +1840,7 @@
 				<Flag v="override CVW lighting" />
 				<Flag v="override CVW lighting - disable CVW for this placement" />
 				<Flag v="client only no relevancy" />
+				<Flag v="non-networked collision" />
 			</_D>
 			<_17 v="position" />
 			<_1C v="rotation" />
@@ -2286,6 +2291,7 @@
 				<Flag v="override CVW lighting" />
 				<Flag v="override CVW lighting - disable CVW for this placement" />
 				<Flag v="client only no relevancy" />
+				<Flag v="non-networked collision" />
 			</_D>
 			<_17 v="position" />
 			<_1C v="rotation" />
@@ -2742,6 +2748,7 @@
 				<Flag v="override CVW lighting" />
 				<Flag v="override CVW lighting - disable CVW for this placement" />
 				<Flag v="client only no relevancy" />
+				<Flag v="non-networked collision" />
 			</_D>
 			<_17 v="position" />
 			<_1C v="rotation" />
@@ -2997,6 +3004,7 @@
 				<Flag v="override CVW lighting" />
 				<Flag v="override CVW lighting - disable CVW for this placement" />
 				<Flag v="client only no relevancy" />
+				<Flag v="non-networked collision" />
 			</_D>
 			<_17 v="position" />
 			<_1C v="rotation" />
@@ -3448,6 +3456,7 @@
 				<Flag v="override CVW lighting" />
 				<Flag v="override CVW lighting - disable CVW for this placement" />
 				<Flag v="client only no relevancy" />
+				<Flag v="non-networked collision" />
 			</_D>
 			<_17 v="position" />
 			<_1C v="rotation" />
@@ -3892,6 +3901,7 @@
 				<Flag v="override CVW lighting" />
 				<Flag v="override CVW lighting - disable CVW for this placement" />
 				<Flag v="client only no relevancy" />
+				<Flag v="non-networked collision" />
 			</_D>
 			<_17 v="position" />
 			<_1C v="rotation" />
@@ -4147,6 +4157,7 @@
 				<Flag v="override CVW lighting" />
 				<Flag v="override CVW lighting - disable CVW for this placement" />
 				<Flag v="client only no relevancy" />
+				<Flag v="non-networked collision" />
 			</_D>
 			<_17 v="position" />
 			<_1C v="rotation" />
@@ -4558,6 +4569,7 @@
 				<Flag v="override CVW lighting" />
 				<Flag v="override CVW lighting - disable CVW for this placement" />
 				<Flag v="client only no relevancy" />
+				<Flag v="non-networked collision" />
 			</_D>
 			<_17 v="position" />
 			<_1C v="rotation" />
@@ -4990,6 +5002,7 @@
 				<Flag v="override CVW lighting" />
 				<Flag v="override CVW lighting - disable CVW for this placement" />
 				<Flag v="client only no relevancy" />
+				<Flag v="non-networked collision" />
 			</_D>
 			<_17 v="position" />
 			<_1C v="rotation" />
@@ -9530,7 +9543,8 @@
 		</_F>
 		<_A v="type">
 			<Flag v="propagate" />
-			<Flag v="Transparent" />
+			<Flag v="Transparent Playspace" />
+			<Flag v="Transparent Reverb" />
 			<Flag v="override" />
 			<Flag v="RemoveVoxels" />
 		</_A>
@@ -11329,6 +11343,7 @@
 			<Flag v="PVS Don't use as an occluder" />
 			<Flag v="Subtract override from kit" />
 			<Flag v="Generate decorators" />
+			<Flag v="Is Trigger Volume" />
 		</_E>
 		<_A v="cinema only">
 			<Flag v="no override" />
@@ -11420,6 +11435,14 @@
 			<_3B v="" />
 		</_40>
 		<_41 v="owner bsp" />
+		<_A v="Trigger Volume Callback">
+			<Flag v="None" />
+		</_A>
+		<_34 v="generated_padfe88" length="3" />
+		<_36 v="bullet collision layer override" />
+		<_2 v="bullet collision layer override" />
+		<_36 v="play collision layer override" />
+		<_2 v="play collision layer override" />
 		<_3B v="" />
 	</_40>
 	<_40 v="asset collection placements">
@@ -11440,6 +11463,7 @@
 			<Flag v="PVS Don't use as an occluder" />
 			<Flag v="Subtract override from kit" />
 			<Flag v="Generate decorators" />
+			<Flag v="Is Trigger Volume" />
 		</_E>
 		<_A v="cinema only">
 			<Flag v="no override" />
@@ -11531,6 +11555,14 @@
 			<_3B v="" />
 		</_40>
 		<_41 v="owner bsp" />
+		<_A v="Trigger Volume Callback">
+			<Flag v="None" />
+		</_A>
+		<_34 v="generated_padfe88" length="3" />
+		<_36 v="bullet collision layer override" />
+		<_2 v="bullet collision layer override" />
+		<_36 v="play collision layer override" />
+		<_2 v="play collision layer override" />
 		<_41 v="asset collection" />
 		<_3B v="" />
 	</_40>
@@ -11552,6 +11584,7 @@
 			<Flag v="PVS Don't use as an occluder" />
 			<Flag v="Subtract override from kit" />
 			<Flag v="Generate decorators" />
+			<Flag v="Is Trigger Volume" />
 		</_E>
 		<_A v="cinema only">
 			<Flag v="no override" />
@@ -11643,6 +11676,14 @@
 			<_3B v="" />
 		</_40>
 		<_41 v="owner bsp" />
+		<_A v="Trigger Volume Callback">
+			<Flag v="None" />
+		</_A>
+		<_34 v="generated_padfe88" length="3" />
+		<_36 v="bullet collision layer override" />
+		<_2 v="bullet collision layer override" />
+		<_36 v="play collision layer override" />
+		<_2 v="play collision layer override" />
 		<_41 v="foliage asset" />
 		<_3B v="" />
 	</_40>
@@ -11851,7 +11892,18 @@
 				<Flag v="Off" />
 				<Flag v="On" />
 			</_A>
-			<_34 v="generated_pad96ea" length="3" />
+			<_A v="Contact Shadows for CVW">
+				<Flag v="Off" />
+				<Flag v="On" />
+			</_A>
+			<_A v="Contact Shadows for First Person">
+				<Flag v="Off" />
+				<Flag v="On" />
+			</_A>
+			<_A v="Contact Shadows for Environment">
+				<Flag v="Off" />
+				<Flag v="On" />
+			</_A>
 			<_14 v="Shadow Resolution Distance Scaler" />
 			<_14 v="Camera Distance Static Shadow + Gobo Fade Start" />
 			<_14 v="Camera Distance Static Shadow + Gobo Fade End" />
@@ -11869,7 +11921,7 @@
 				<Flag v="Off" />
 				<Flag v="On" />
 			</_A>
-			<_34 v="generated_pad4a35" length="3" />
+			<_34 v="generated_pad96ea" length="3" />
 			<_19 v="OBB Center Offset" />
 			<_19 v="OBB Scale Factor" />
 			<_19 v="OBB Orientation Adjust" />
@@ -11899,7 +11951,7 @@
 				<Flag v="Off" />
 				<Flag v="On" />
 			</_A>
-			<_34 v="generated_pad6328" length="1" />
+			<_34 v="generated_pad4a35" length="1" />
 			<_5 v="Minimum Gobo Resolution" />
 			<_36 v="Dynamic Gobo" />
 			<_41 v="Gobos" />
@@ -11938,7 +11990,7 @@
 			<_6 v="Light Shadow Priority" />
 			<_4 v="needs update state" />
 			<_4 v="needs update bounding sphere" />
-			<_34 v="generated_pad1673" length="2" />
+			<_34 v="generated_pad6328" length="2" />
 			<_6 v="tick of last state update" />
 			<_6 v="tick of last bounding sphere update" />
 			<_3B v="" />

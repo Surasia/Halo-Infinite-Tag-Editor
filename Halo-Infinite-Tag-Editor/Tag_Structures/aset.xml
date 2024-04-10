@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -202,10 +202,10 @@
 			<_34 v="generated_pad8671" length="2" />
 			<_3B v="" />
 		</_40>
-		<_41 v="Reference to material palette tag" />
-		<_41 v="Reference to generated vector art" />
-		<_41 v="Reference round trip ABC tag from a render model" />
-		<_41 v="Reference round trip ABC tag from a runtimegeo" />
+		<_41 v="Generated Runtime Material Palette Reference" />
+		<_41 v="Generated Vector Art Reference" />
+		<_41 v="Generated Round Trip Abc From Render Model Reference" />
+		<_41 v="Generated Round Trip Abc From RuntimeGeo Reference" />
 		<_3B v="" />
 	</_40>
 	<_40 v="Unique geometry">
@@ -215,10 +215,10 @@
 			<_2 v="Geometry name" />
 			<_3B v="" />
 		</_40>
-		<_41 v="Reference to generated prefab" />
-		<_41 v="Reference to raw triangle data" />
-		<_41 v="Reference to generated static collision geometry" />
-		<_41 v="Reference to generated lightweight fixed-depth quadtree" />
+		<_41 v="Generated Static Asset Reference" />
+		<_41 v="Generated Raw Geo Reference" />
+		<_41 v="Generated Static Collision Geo Reference" />
+		<_41 v="Generated Fixed Depth Quad Tree Reference" />
 		<_34 v="generated_pada40c" length="4" />
 		<_3B v="" />
 	</_40>
@@ -232,7 +232,12 @@
 		<Flag v="Allow decals" />
 		<Flag v="Do not allow decals" />
 	</_A>
-	<_34 v="generated_pad8534" length="2" />
+	<_A v="Static collision shape type">
+		<Flag v="Mesh" />
+		<Flag v="Compressed Mesh" />
+		<Flag v="Convex" />
+	</_A>
+	<_34 v="generated_pad8534" length="1" />
 	<_37 v="" />
 	<_37 v="Static Render Generation Settings" />
 	<_C v="Convert Collision to Shadow Geometry">
@@ -285,11 +290,12 @@
 	</_C>
 	<_37 v="" />
 	<_37 v="Generated Tags" />
-	<_41 v="Model tag" />
-	<_41 v="Render model tag" />
-	<_41 v="Physics model tag" />
-	<_41 v="Collision model tag" />
-	<_41 v="Legacy model animation graph tag" />
+	<_41 v="Generate Model Tag Reference" />
+	<_41 v="Generated Render Model Reference" />
+	<_41 v="Generated Physics Model Reference" />
+	<_41 v="Generated Collision Model Reference" />
+	<_41 v="Generated Legacy Mag Reference" />
+	<_37 v="" />
 	<_37 v="Impostor" />
 	<_41 v="Impostor tag" />
 	<_37 v="" />

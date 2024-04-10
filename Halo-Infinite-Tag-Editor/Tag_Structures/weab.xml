@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -177,6 +177,7 @@
 					<_15 v="blurred rate of fire" />
 					<_23 v="shots per fire" />
 					<_14 v="fire recovery time" />
+					<_14 v="empty recovery time" />
 					<_15 v="soft recovery fraction" />
 					<_14 v="melee  fire recovery time" />
 					<_15 v="melee soft recovery fraction" />
@@ -450,6 +451,7 @@
 					<_15 v="blurred rate of fire" />
 					<_23 v="shots per fire" />
 					<_14 v="fire recovery time" />
+					<_14 v="empty recovery time" />
 					<_15 v="soft recovery fraction" />
 					<_14 v="melee  fire recovery time" />
 					<_15 v="melee soft recovery fraction" />

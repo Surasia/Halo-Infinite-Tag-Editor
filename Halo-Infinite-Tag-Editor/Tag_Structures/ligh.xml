@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -160,7 +160,18 @@
 			<Flag v="Off" />
 			<Flag v="On" />
 		</_A>
-		<_34 v="generated_pad96ea" length="3" />
+		<_A v="Contact Shadows for CVW">
+			<Flag v="Off" />
+			<Flag v="On" />
+		</_A>
+		<_A v="Contact Shadows for First Person">
+			<Flag v="Off" />
+			<Flag v="On" />
+		</_A>
+		<_A v="Contact Shadows for Environment">
+			<Flag v="Off" />
+			<Flag v="On" />
+		</_A>
 		<_14 v="Shadow Resolution Distance Scaler" />
 		<_14 v="Camera Distance Static Shadow + Gobo Fade Start" />
 		<_14 v="Camera Distance Static Shadow + Gobo Fade End" />
@@ -178,7 +189,7 @@
 			<Flag v="Off" />
 			<Flag v="On" />
 		</_A>
-		<_34 v="generated_pad4a35" length="3" />
+		<_34 v="generated_pad96ea" length="3" />
 		<_19 v="OBB Center Offset" />
 		<_19 v="OBB Scale Factor" />
 		<_19 v="OBB Orientation Adjust" />
@@ -208,7 +219,7 @@
 			<Flag v="Off" />
 			<Flag v="On" />
 		</_A>
-		<_34 v="generated_pad6328" length="1" />
+		<_34 v="generated_pad4a35" length="1" />
 		<_5 v="Minimum Gobo Resolution" />
 		<_36 v="Dynamic Gobo" />
 		<_41 v="Gobos" />
@@ -247,7 +258,7 @@
 		<_6 v="Light Shadow Priority" />
 		<_4 v="needs update state" />
 		<_4 v="needs update bounding sphere" />
-		<_34 v="generated_pad1673" length="2" />
+		<_34 v="generated_pad6328" length="2" />
 		<_6 v="tick of last state update" />
 		<_6 v="tick of last bounding sphere update" />
 		<_3B v="" />

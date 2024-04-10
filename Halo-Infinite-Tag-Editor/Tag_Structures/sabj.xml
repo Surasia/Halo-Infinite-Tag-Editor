@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -12,6 +12,13 @@
 	<_38 v="boostJump">
 		<_38 v="common ability parameters">
 			<_37 v="common ability parameters" />
+			<_A v="power class">
+				<Flag v="unclassified" />
+				<Flag v="base" />
+				<Flag v="power" />
+				<Flag v="legendary" />
+			</_A>
+			<_34 v="generated_pad0aca" length="3" />
 			<_C v="input">
 				<Flag v="Default" />
 				<Flag v="Mobility" />
@@ -33,6 +40,8 @@
 				<Flag v="Activation interrupts weapon switching" />
 				<Flag v="Allow activation during weapon throw" />
 				<Flag v="Allow activation while sliding" />
+				<Flag v="Drop support weapon when activated" />
+				<Flag v="Drop must be readied weapon when activated" />
 			</_D>
 			<_15 v="activation energy cost" />
 			<_14 v="active energy consumption" />
@@ -48,7 +57,7 @@
 				<Flag v="Decay (normal)" />
 				<Flag v="Decay (forced)" />
 			</_A>
-			<_34 v="generated_pad0aca" length="3" />
+			<_34 v="generated_pad577f" length="3" />
 			<_41 v="active malleable property modifiers" />
 			<_41 v="timed malleable property modifiers" />
 			<_37 v="" />
@@ -89,6 +98,5 @@
 		</_38>
 		<_3B v="" />
 	</_38>
-	<_34 v="generated_pad2ea2" length="4" />
 	<_3B v="" />
 </root>

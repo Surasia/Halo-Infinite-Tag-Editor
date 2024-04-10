@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -17,6 +17,7 @@
 		<_2 v="Idle Focused Animation" />
 		<_2 v="Focused 2 Idle Animation" />
 		<_2 v="Armor Change Reaction Animation" />
+		<_2 v="Armor Change Reaction Animation Variant" />
 		<_2 v="Holo Table Animation" />
 		<_2 v="Idle Spartan Ai Animation" />
 		<_2 v="Spartan Platform Glow Effect" />
@@ -81,7 +82,7 @@
 		</_40>
 		<_40 v="Region Data">
 			<_2 v="UI Display String" />
-			<_2 v="UI Description�String" />
+			<_2 v="UI Description String" />
 			<_6 v="CMS Customization Item Type" />
 			<_B v="CMS Customization Core Type">
 				<Flag v="Unknown" />
@@ -167,7 +168,7 @@
 		</_40>
 		<_40 v="RTT Region Data">
 			<_2 v="UI Display String" />
-			<_2 v="UI Description�String" />
+			<_2 v="UI Description String" />
 			<_6 v="CMS Customization Item Type" />
 			<_B v="CMS Customization Core Type">
 				<Flag v="Unknown" />

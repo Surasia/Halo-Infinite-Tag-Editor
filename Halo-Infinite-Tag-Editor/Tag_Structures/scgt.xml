@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -16,6 +16,7 @@
 	<_5 v="numCollisionMaterials" />
 	<_F v="flags">
 		<Flag v="Allow decals" />
+		<Flag v="Is Trigger Volume" />
 	</_F>
 	<_34 v="generated_pad05b3" length="1" />
 	<_40 v="Havok Collision Geometry Types">

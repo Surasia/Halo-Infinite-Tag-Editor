@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -27,7 +27,7 @@
 		<Flag v="Force First Person Propagation For All Listeners (Deprecated)" />
 		<Flag v="Disable Source portal occlusion" />
 		<Flag v="Disable Virtual Positioning" />
-		<Flag v="Use First Listener Position in Splitscreen." />
+		<Flag v="Use Only First Listener in Splitscreen." />
 		<Flag v="Enable height above listener rtpc" />
 	</_D>
 	<_14 v="Don't Play Time (seconds)" />
@@ -62,5 +62,7 @@
 	<_6 v="Max looping sounds" />
 	<_14 v="Priority at listener" />
 	<_14 v="Priority at max distance" />
+	<_14 v="Occlusion from Obstruction Scalar" />
+	<_34 v="generated_padc935" length="4" />
 	<_3B v="" />
 </root>

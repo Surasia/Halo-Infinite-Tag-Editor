@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -801,6 +801,8 @@
 					<_3B v="" />
 				</_38>
 				<_41 v="looping effect" />
+				<_41 v="healing transition effect (generic)" />
+				<_2 v="generic healing effect marker" />
 				<_37 v="Contextual Effects" />
 				<_36 v="Contextual Transition Effects" />
 				<_2 v="ray cast marker" />
@@ -940,6 +942,12 @@
 		<_38 v="properties">
 			<_37 v="max overshield scalar" />
 			<_38 v="max overshield scalar">
+				<_14 v="Base Value" />
+				<_25 v="Value Bounds" />
+				<_3B v="" />
+			</_38>
+			<_37 v="overshield decay rate base scalar" />
+			<_38 v="overshield decay rate base scalar">
 				<_14 v="Base Value" />
 				<_25 v="Value Bounds" />
 				<_3B v="" />
@@ -1283,6 +1291,7 @@
 	<_14 v="shadow slope scale bias (dynamic lights)" />
 	<_14 v="runtime bounding radius" />
 	<_17 v="runtime bounding offset" />
+	<_34 v="generated_pad57cd" length="4" />
 	<_7 v="reload hash" />
 	<_3B v="" />
 </root>

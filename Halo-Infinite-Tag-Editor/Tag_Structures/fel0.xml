@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -52,6 +52,44 @@
 				</_38>
 				<_40 v="AnimatedCurveMetadata">
 					<_14 v="time" />
+					<_3B v="" />
+				</_40>
+				<_40 v="EditorCurveProperties">
+					<_40 v="wizard settings">
+						<_A v="range mode">
+							<Flag v="UseTrackLength" />
+							<Flag v="UseTrackLengthLooping" />
+							<Flag v="Range" />
+						</_A>
+						<_34 v="generated_pad4449" length="3" />
+						<_14 v="start frame" />
+						<_14 v="end frame" />
+						<_B v="function">
+							<Flag v="one" />
+							<Flag v="zero" />
+							<Flag v="cosine" />
+							<Flag v="cosine (variable period)" />
+							<Flag v="diagonal wave" />
+							<Flag v="diagonal wave (variable period)" />
+							<Flag v="slide" />
+							<Flag v="slide (variable period)" />
+							<Flag v="noise" />
+							<Flag v="jitter" />
+							<Flag v="wander" />
+							<Flag v="spark" />
+						</_B>
+						<_34 v="generated_pad2a68" length="2" />
+						<_14 v="keyframe frequency" />
+						<_14 v="function frequency" />
+						<_14 v="offset" />
+						<_14 v="min value" />
+						<_14 v="max value" />
+						<_3B v="" />
+					</_40>
+					<_40 v="Colors">
+						<_3E v="color" />
+						<_3B v="" />
+					</_40>
 					<_3B v="" />
 				</_40>
 				<_3B v="" />

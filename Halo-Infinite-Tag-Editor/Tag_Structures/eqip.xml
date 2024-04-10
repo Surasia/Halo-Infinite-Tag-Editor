@@ -2,7 +2,7 @@
 <root>
 	<_38 v="item">
 		<_38 v="object">
-			<_38 v="">
+			<_38 v="AnyTag">
 				<_7 v="vtable space" />
 				<_38 v="internal struct">
 					<_6 v="global tag ID" />
@@ -598,6 +598,10 @@
 					<Flag v="navgenerator volume" />
 					<Flag v="navcutter volume" />
 					<Flag v="light probe volume" />
+					<Flag v="AI spawn point" />
+					<Flag v="AI zone" />
+					<Flag v="AI phantom spawn point" />
+					<Flag v="AI droppod spawn point" />
 				</_A>
 				<_F v="teleporter passability">
 					<Flag v="disallow players" />
@@ -613,6 +617,7 @@
 				<_34 v="generated_padd1ba" length="1" />
 				<_5 v="number of fx color overrides" />
 				<_34 v="generated_pad1e6f" length="2" />
+				<_14 v="starting fx scale (for Forge Placements)" />
 				<_36 v="GOAL AND RESPAWN ZONE OBJECT BOUNDARY" />
 				<_14 v="boundary width/radius" />
 				<_14 v="boundary box length" />
@@ -693,6 +698,7 @@
 					<Flag v="Normal" />
 					<Flag v="Fixed" />
 					<Flag v="Phased" />
+					<Flag v="ProjectileOnly" />
 				</_A>
 				<_34 v="generated_pad6b24" length="1" />
 				<_2 v="Default Primary Color" />
@@ -706,6 +712,7 @@
 				<_2 v="Default Label 2" />
 				<_2 v="Default Label 3" />
 				<_2 v="Default Label 4" />
+				<_34 v="generated_pad048e" length="4" />
 				<_7 v="m_defaultBoundaryPipelineState" />
 				<_7 v="m_sphereBoundaryPipelineStates" />
 				<_7 v="m_cylinderBoundaryPipelineStates" />
@@ -719,7 +726,11 @@
 					<Flag v="Vehicle" />
 					<Flag v="Crouch" />
 				</_A>
-				<_34 v="generated_pad048e" length="3" />
+				<_A v="Script Brain Type">
+					<Flag v="Map Script Brain" />
+					<Flag v="Mode Script Brain" />
+				</_A>
+				<_34 v="generated_pad5143" length="2" />
 				<_3B v="" />
 			</_40>
 			<_40 v="Forge data">
@@ -1110,6 +1121,8 @@
 					<Flag v="frame_attachment_switch_to_secondary_parent_marker" />
 					<Flag v="frame_attachment_switch_to_default_parent_marker" />
 					<Flag v="allow_sprint_interrupt" />
+					<Flag v="hide_3p_primary_weapon" />
+					<Flag v="show_3p_primary_weapon" />
 				</_B>
 				<_34 v="generated_paddc16" length="2" />
 				<_3B v="" />
@@ -1211,12 +1224,56 @@
 			<_40 v="shroud generator">
 				<_14 v="radius" />
 				<_2 v="active object function name" />
+				<_15 v="active threshold fraction" />
 				<_41 v="shroud created effect" />
 				<_41 v="shroud destroyed effect" />
 				<_2 v="biped effect marker" />
 				<_41 v="biped enter effect" />
 				<_41 v="biped inside effect" />
 				<_41 v="biped leave effect" />
+				<_3B v="" />
+			</_40>
+			<_40 v="repair field">
+				<_37 v="Field Parameters" />
+				<_D v="field flags">
+					<Flag v="revives participant bipeds" />
+					<Flag v="exclude enemies" />
+				</_D>
+				<_2 v="dome field effect marker" />
+				<_41 v="dome field effect" />
+				<_2 v="biped enter effect marker" />
+				<_41 v="biped enter effect" />
+				<_2 v="biped exit effect marker" />
+				<_41 v="biped exit effect" />
+				<_14 v="arming time" />
+				<_37 v="" />
+				<_37 v="Regen Parameters" />
+				<_D v="regen flags">
+					<Flag v="enable health repair" />
+					<Flag v="enable shield repair" />
+				</_D>
+				<_14 v="regen radius" />
+				<_14 v="regen rate" />
+				<_14 v="biped regen amount" />
+				<_14 v="vehicle regen amount" />
+				<_37 v="" />
+				<_37 v="Biped Revive Parameters" />
+				<_14 v="revive monitor rate" />
+				<_14 v="revive delay" />
+				<_2 v="revive device action string" />
+				<_37 v="" />
+				<_37 v="Biped Healing VFX" />
+				<_2 v="biped healing effect marker" />
+				<_41 v="biped healing effect" />
+				<_41 v="biped healing complete effect" />
+				<_2 v="AI bubble effect marker" />
+				<_41 v="AI bubble in field effect" />
+				<_37 v="" />
+				<_37 v="Vehicle Healing VFX" />
+				<_2 v="vehicle healing effect marker" />
+				<_41 v="vehicle healing effect" />
+				<_41 v="vehicle healing complete effect" />
+				<_37 v="" />
 				<_3B v="" />
 			</_40>
 			<_37 v="" />
@@ -1287,6 +1344,7 @@
 				<_3B v="" />
 			</_40>
 			<_37 v="" />
+			<_6 v="runtime regions with physics" />
 			<_34 v="generated_paddd0c" length="4" />
 			<_3B v="" />
 		</_38>
@@ -1375,6 +1433,7 @@
 		<_14 v="huge unit (stowed)" />
 		<_41 v="grounded friction settings" />
 		<_41 v="Tossed Override" />
+		<_41 v="legacy networking override" />
 		<_37 v="Override toss properties" />
 		<_14 v="toss angle" />
 		<_14 v="toss angle max elevation" />
@@ -1387,10 +1446,18 @@
 		<_1C v="Item throw rotation offset" />
 		<_37 v="" />
 		<_37 v="" />
+		<_34 v="generated_pad9d08" length="4" />
 		<_3B v="" />
 	</_38>
 	<_37 v="$$$ EQUIPMENT $$$" />
 	<_41 v="parent" />
+	<_A v="power class">
+		<Flag v="unclassified" />
+		<Flag v="base" />
+		<Flag v="power" />
+		<Flag v="legendary" />
+	</_A>
+	<_34 v="generated_pad180b" length="3" />
 	<_C v="input">
 		<Flag v="Default" />
 		<Flag v="Mobility" />
@@ -1405,6 +1472,12 @@
 	<_14 v="initial energy" />
 	<_14 v="energy recovery time" />
 	<_14 v="inactive energy rate" />
+	<_37 v="" />
+	<_37 v="Charges" />
+	<_36 v="Charges" />
+	<_4 v="initial charges" />
+	<_4 v="maximum charges" />
+	<_34 v="generated_padcb56" length="2" />
 	<_37 v="" />
 	<_14 v="gravity scale" />
 	<_37 v="At Rest Activation" />
@@ -1428,6 +1501,7 @@
 		<Flag v="does not play ability cooldown complete notifications" />
 		<Flag v="ignore suppression from weapons" />
 		<Flag v="deactivate equipment immediately" />
+		<Flag v="use first-person sprint interrupt keyframes" />
 	</_D>
 	<_2 v="unit stow marker name" />
 	<_A v="pickup behavior">
@@ -1438,7 +1512,7 @@
 		<Flag v="automatic activation within range" />
 		<Flag v="never" />
 	</_A>
-	<_34 v="generated_pad180b" length="3" />
+	<_34 v="generated_pad7ea1" length="3" />
 	<_14 v="pickup radius" />
 	<_37 v="AI" />
 	<_36 v="AI" />
@@ -1454,7 +1528,7 @@
 		<Flag v="Deployable Wall" />
 		<Flag v="Location Sensor" />
 	</_A>
-	<_34 v="generated_padcb56" length="3" />
+	<_34 v="generated_pad31ec" length="3" />
 	<_37 v="" />
 	<_40 v="override camera">
 		<_38 v="unit camera">
@@ -1705,6 +1779,9 @@
 			<Flag v="Disallow activation while sliding (deprecated)" />
 			<Flag v="Disallow activation while throwing grenade (deprecated)" />
 		</_D>
+		<_D v="ui flags">
+			<Flag v="Show the equipment meter UI HUD" />
+		</_D>
 		<_37 v="Suppression Flags" />
 		<_D v="slide">
 			<Flag v="Suppress while equipment active" />
@@ -1717,6 +1794,11 @@
 			<Flag v="Suppress equipment activation" />
 		</_D>
 		<_D v="weapon drop">
+			<Flag v="Suppress while equipment active" />
+			<Flag v="Suppress during activation animation" />
+			<Flag v="Suppress equipment activation" />
+		</_D>
+		<_D v="equipment interactions">
 			<Flag v="Suppress while equipment active" />
 			<Flag v="Suppress during activation animation" />
 			<Flag v="Suppress equipment activation" />
@@ -2309,6 +2391,8 @@
 			<_41 v="portal created effect" />
 			<_41 v="anchor initiate teleport effect" />
 			<_41 v="anchor complete teleport effect" />
+			<_2 v="anchor teleport ready marker" />
+			<_41 v="anchor teleport ready effect" />
 			<_37 v="" />
 			<_37 v="sounds" />
 			<_2 v="teleport ready sound" />

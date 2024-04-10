@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<_38 v="">
+	<_38 v="AnyTag">
 		<_7 v="vtable space" />
 		<_38 v="internal struct">
 			<_6 v="global tag ID" />
@@ -30,6 +30,7 @@
 		<_14 v="EMP kill window" />
 		<_14 v="Cowbell explosion acceleration multiplier" />
 		<_14 v="Boom explosion acceleration multiplier" />
+		<_14 v="Boom explosion radius multiplier" />
 		<_14 v="Famine ammo multiplier" />
 		<_14 v="Score delta display seconds (max)" />
 		<_14 v="Score delta display seconds (incremental)" />

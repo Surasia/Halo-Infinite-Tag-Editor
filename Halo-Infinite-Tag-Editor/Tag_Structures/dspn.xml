@@ -2,7 +2,7 @@
 <root>
 	<_38 v="device">
 		<_38 v="object">
-			<_38 v="">
+			<_38 v="AnyTag">
 				<_7 v="vtable space" />
 				<_38 v="internal struct">
 					<_6 v="global tag ID" />
@@ -598,6 +598,10 @@
 					<Flag v="navgenerator volume" />
 					<Flag v="navcutter volume" />
 					<Flag v="light probe volume" />
+					<Flag v="AI spawn point" />
+					<Flag v="AI zone" />
+					<Flag v="AI phantom spawn point" />
+					<Flag v="AI droppod spawn point" />
 				</_A>
 				<_F v="teleporter passability">
 					<Flag v="disallow players" />
@@ -613,6 +617,7 @@
 				<_34 v="generated_padd1ba" length="1" />
 				<_5 v="number of fx color overrides" />
 				<_34 v="generated_pad1e6f" length="2" />
+				<_14 v="starting fx scale (for Forge Placements)" />
 				<_36 v="GOAL AND RESPAWN ZONE OBJECT BOUNDARY" />
 				<_14 v="boundary width/radius" />
 				<_14 v="boundary box length" />
@@ -693,6 +698,7 @@
 					<Flag v="Normal" />
 					<Flag v="Fixed" />
 					<Flag v="Phased" />
+					<Flag v="ProjectileOnly" />
 				</_A>
 				<_34 v="generated_pad6b24" length="1" />
 				<_2 v="Default Primary Color" />
@@ -706,6 +712,7 @@
 				<_2 v="Default Label 2" />
 				<_2 v="Default Label 3" />
 				<_2 v="Default Label 4" />
+				<_34 v="generated_pad048e" length="4" />
 				<_7 v="m_defaultBoundaryPipelineState" />
 				<_7 v="m_sphereBoundaryPipelineStates" />
 				<_7 v="m_cylinderBoundaryPipelineStates" />
@@ -719,7 +726,11 @@
 					<Flag v="Vehicle" />
 					<Flag v="Crouch" />
 				</_A>
-				<_34 v="generated_pad048e" length="3" />
+				<_A v="Script Brain Type">
+					<Flag v="Map Script Brain" />
+					<Flag v="Mode Script Brain" />
+				</_A>
+				<_34 v="generated_pad5143" length="2" />
 				<_3B v="" />
 			</_40>
 			<_40 v="Forge data">
@@ -1110,6 +1121,8 @@
 					<Flag v="frame_attachment_switch_to_secondary_parent_marker" />
 					<Flag v="frame_attachment_switch_to_default_parent_marker" />
 					<Flag v="allow_sprint_interrupt" />
+					<Flag v="hide_3p_primary_weapon" />
+					<Flag v="show_3p_primary_weapon" />
 				</_B>
 				<_34 v="generated_paddc16" length="2" />
 				<_3B v="" />
@@ -1211,12 +1224,56 @@
 			<_40 v="shroud generator">
 				<_14 v="radius" />
 				<_2 v="active object function name" />
+				<_15 v="active threshold fraction" />
 				<_41 v="shroud created effect" />
 				<_41 v="shroud destroyed effect" />
 				<_2 v="biped effect marker" />
 				<_41 v="biped enter effect" />
 				<_41 v="biped inside effect" />
 				<_41 v="biped leave effect" />
+				<_3B v="" />
+			</_40>
+			<_40 v="repair field">
+				<_37 v="Field Parameters" />
+				<_D v="field flags">
+					<Flag v="revives participant bipeds" />
+					<Flag v="exclude enemies" />
+				</_D>
+				<_2 v="dome field effect marker" />
+				<_41 v="dome field effect" />
+				<_2 v="biped enter effect marker" />
+				<_41 v="biped enter effect" />
+				<_2 v="biped exit effect marker" />
+				<_41 v="biped exit effect" />
+				<_14 v="arming time" />
+				<_37 v="" />
+				<_37 v="Regen Parameters" />
+				<_D v="regen flags">
+					<Flag v="enable health repair" />
+					<Flag v="enable shield repair" />
+				</_D>
+				<_14 v="regen radius" />
+				<_14 v="regen rate" />
+				<_14 v="biped regen amount" />
+				<_14 v="vehicle regen amount" />
+				<_37 v="" />
+				<_37 v="Biped Revive Parameters" />
+				<_14 v="revive monitor rate" />
+				<_14 v="revive delay" />
+				<_2 v="revive device action string" />
+				<_37 v="" />
+				<_37 v="Biped Healing VFX" />
+				<_2 v="biped healing effect marker" />
+				<_41 v="biped healing effect" />
+				<_41 v="biped healing complete effect" />
+				<_2 v="AI bubble effect marker" />
+				<_41 v="AI bubble in field effect" />
+				<_37 v="" />
+				<_37 v="Vehicle Healing VFX" />
+				<_2 v="vehicle healing effect marker" />
+				<_41 v="vehicle healing effect" />
+				<_41 v="vehicle healing complete effect" />
+				<_37 v="" />
 				<_3B v="" />
 			</_40>
 			<_37 v="" />
@@ -1287,6 +1344,7 @@
 				<_3B v="" />
 			</_40>
 			<_37 v="" />
+			<_6 v="runtime regions with physics" />
 			<_34 v="generated_paddd0c" length="4" />
 			<_3B v="" />
 		</_38>
@@ -1300,13 +1358,15 @@
 			<Flag v="requires line of sight for interaction" />
 			<Flag v="only active when parent is hostile" />
 			<Flag v="is targetable" />
-			<Flag v="Ignore important work just for VS" />
 			<Flag v="huge device" />
 			<Flag v="interactor can't move" />
+			<Flag v="interactor must crouch" />
+			<Flag v="is conversion" />
 			<Flag v="Disable Weapon Down/Up Animations on Interact" />
 			<Flag v="Enable Unit Interaction Animations" />
 			<Flag v="high priority interaction device" />
 			<Flag v="Allow weapon actions" />
+			<Flag v="Prevent equipment usage" />
 		</_D>
 		<_14 v="power transition time" />
 		<_14 v="power acceleration time" />
@@ -1343,7 +1403,9 @@
 			<_37 v="" />
 			<_3B v="" />
 		</_38>
+		<_41 v="on-use malleable property modifiers" />
 		<_37 v="" />
+		<_34 v="generated_pad7d12" length="4" />
 		<_3B v="" />
 	</_38>
 	<_37 v="DISPENSER" />
